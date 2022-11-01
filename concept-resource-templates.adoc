@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-resource-templates.html 
 keywords: templates, overview, conceptual, resource templates, application templates, volume templates 
-summary: AppTemplate服務可讓您在工作環境中標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。 
+summary: AppTemplate服務可讓您在BlueXP的工作環境中、標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。 
 ---
 = 深入瞭解AppTemplate
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: AppTemplate服務可讓您在工作環境中標準化資源建立。例
 
 
 [role="lead"]
-AppTemplate服務可讓您在工作環境中標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。
+AppTemplate服務可讓您在BlueXP（前身為Cloud Manager）的工作環境中、標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。
 
 範本可讓儲存管理員輕鬆建立專為每個已部署應用程式的工作負載需求最佳化的磁碟區、例如資料庫、電子郵件或串流服務。而且儲存架構設計師知道每個磁碟區都是針對每個應用程式最佳化建立、因此能更輕鬆地完成工作。
 
@@ -87,7 +87,7 @@ image:diagram_template_flow1.png["與建立及使用應用程式範本有關的�
 
 == 定價與授權
 
-應用程式範本功能不需授權、所有Cloud Manager使用者均可免費使用。
+應用程式範本功能不需要授權、所有的BlueXP使用者都可以免費使用。
 
 
 NOTE: 範本可讓您將雲端服務套用至已建立的資源、例如在每個Volume上啟用Cloud Backup。在這種情況下、使用備份服務和備份檔案所使用的物件儲存空間都會有成本。

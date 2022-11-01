@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-using-tags.html 
 keywords: tags, resource tags, volume tags, add tags, delete tags, view tags 
-summary: 您可以使用Cloud Manager標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。 
+summary: 您可以使用BlueXP標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。 
 ---
 = 管理資源的標記
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 您可以使用Cloud Manager標記服務來檢視、新增、修改及�
 
 
 [role="lead"]
-您可以使用Cloud Manager標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。
+您可以使用BlueXP標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。
 
 
 
@@ -23,7 +23,7 @@ summary: 您可以使用Cloud Manager標記服務來檢視、新增、修改及�
 如果您想要查看具有特定標記或特定標記和標記索引鍵值的所有資源、您可以搜尋這些標記。您可以搜尋所有資源、或只搜尋特定資源類別。
 
 .步驟
-. 選取「*應用程式範本*」服務、然後按一下「*標記*」索引標籤。
+. 選擇*健全狀況>補救*、然後按一下*標記*索引標籤。
 . 如有必要、請在* Select認證*欄位中選擇特定雲端供應商的認證資料。
 . 在「資源類型_」欄位中、選取資源、例如* ONTAP：CVO：Volume *、以搜尋所有Cloud Volumes ONTAP 的各個版本。
 . 在_Tag Key_欄位中、選取標籤、例如* Env*、將搜尋範圍限制在含有「Env」標籤的磁碟區。

@@ -36,7 +36,7 @@ image:screenshot_template_options.png["可編輯及偏移選項的螢幕擷取�
 
 === 偏移核取方塊
 
-核取此方塊、以便Cloud Manager在使用範本建立資源時、監控您為參數輸入的硬編碼值。稍後、您可以執行「DrivFT報告」、查看哪些已設定為「DrivFT」的欄位不再符合範本設定。
+核取此方塊、以便在使用範本建立資源時、BlueXP會監控您為參數輸入的硬編碼值。稍後、您可以執行「DrivFT報告」、查看哪些已設定為「DrivFT」的欄位不再符合範本設定。
 
 取消核取時、使用者可以在建立資源之後、將值變更為任何值。
 
@@ -62,11 +62,11 @@ image:screenshot_template_regex.png["使用regex定義Volume名稱允許值的�
 AppTemplate服務可使用三種類型的資訊：
 
 * 輸入值：這是儲存設備管理員在先前範本動作的欄位中輸入的實際值。
-* 輸出值：這是Cloud Manager從先前的範本動作建立資源後所產生的價值。
+* 輸出值：這是從先前的範本動作建立資源之後、BlueXP所產生的值。
 * 輸入您自己的值-這是您輸入的值、無法從範本中的先前動作存取。
 
 
-例如、若要在磁碟區上啟用法規遵循掃描、Cloud Data Sense服務需要儲存設備管理員輸入的「Volume name」（磁碟區名稱）（輸入值）、以及Cloud Manager在建立磁碟區時產生的「Volume uuid」（輸出值）。
+例如、若要在磁碟區上啟用法規遵循掃描、Cloud Data Sense服務需要儲存設備管理員輸入的「Volume name」（磁碟區名稱）（輸入值）、以及BlueXP建立磁碟區時產生的「Volume uuid」（輸出值）。
 
 下圖顯示如何在範本的「Cloud Data Sense Action（雲端資料感測行動）」區段中輸入此資訊。
 
@@ -95,7 +95,7 @@ image:screenshot_template_condition_example.png["快照顯示範本中的條件�
 *來源欄位*：您將從中取得值進行比較的位置。
 
 * 從行動取得輸入值：儲存設備管理員在先前範本行動的欄位中輸入的實際值。
-* 從行動取得輸出值：從先前的範本動作建立資源之後所產生的Cloud Manager價值。
+* 從行動取得輸出值：從先前的範本動作建立資源之後所產生的值BlueXP。
 * Enter Value（輸入值）-這是您輸入的值、無法從範本中的先前動作存取。這可以是現有資源的值、例如現有的Volume。
 
 

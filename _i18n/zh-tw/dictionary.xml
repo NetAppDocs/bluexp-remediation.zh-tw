@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="98af7a1c0ade78de5b8dcbfc4ca16024" category="summary">AppTemplate服務可讓您標準化Cloud Manager工作環境的資源建立。</block>
   <block id="91ee6aa91810fc059d494948432212cc" category="doc">應用程式範本文件</block>
-  <block id="ea71cf04f7239c133ac6882358bee38e" category="summary">您可以使用Cloud Manager標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。</block>
   <block id="9b07b7a435eb3748887ec84eac33cf64" category="doc">管理資源的標記</block>
   <block id="f02ce38105e0bd4e1492a696a42fc111" category="section-title">搜尋具有特定標記的資源</block>
   <block id="572b98a402ed12dbaca0370b0814a61c" category="paragraph">如果您想要查看具有特定標記或特定標記和標記索引鍵值的所有資源、您可以搜尋這些標記。您可以搜尋所有資源、或只搜尋特定資源類別。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
-  <block id="d021504cd210ca3c99557d4026f93fe9" category="list-text">選取「*應用程式範本*」服務、然後按一下「*標記*」索引標籤。</block>
   <block id="8a4ccdfb1d164c3e3a6da2758ea59afa" category="list-text">如有必要、請在* Select認證*欄位中選擇特定雲端供應商的認證資料。</block>
   <block id="f58ddfd9537b922f14de15f169e66a44" category="list-text">在「資源類型_」欄位中、選取資源、例如* ONTAP：CVO：Volume *、以搜尋所有Cloud Volumes ONTAP 的各個版本。</block>
   <block id="55048905cb51ad2998c06b578a1e485e" category="list-text">在_Tag Key_欄位中、選取標籤、例如* Env*、將搜尋範圍限制在含有「Env」標籤的磁碟區。</block>
@@ -65,28 +62,17 @@
   <block id="01c2aeb5ca936bbe9aa0ad9699706a64" category="paragraph"><block ref="01c2aeb5ca936bbe9aa0ad9699706a64" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c2b9a18179af322bffbbd1fc093f0e6a" category="list-text">按一下 <block ref="ccf4df3a8e9a80d7b6ff904049041296" category="inline-image-macro-rx" type="image"></block> 針對您要刪除的標記金鑰/值配對、並移除該列、然後按一下*「Review and Apply *（檢閱並套用*）」。</block>
   <block id="6f195138d995bb3980eb20df6cd6b372" category="list-text">如果您在_檢閱_頁面中的變更看起來正確、請按一下*儲存*、標記金鑰/值配對就會從資源或所有選取的資源中移除。</block>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp以多種方式支援Cloud Manager。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp以多種方式支援Cloud Manager及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自我支援</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">請搜尋Cloud Manager知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">加入Cloud Manager社群、追蹤後續討論或建立新討論。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">您目前正在檢視的Cloud Manager文件。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述的自我支援選項、您也可以與NetApp支援工程師合作、在您啟動支援之後解決任何問題。</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">按一下*致電我們*以尋找NetApp技術支援的電話號碼。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">按一下「*開啟問題*」、選取其中一個選項、然後按一下「*傳送*」。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp代表將審查您的案例、並盡快回覆您。</block>
   <block id="cc371045494864a1be09aecf8486813b" category="summary">選取NetApp提供的一或多個「行動」、然後快速建立應用程式範本、讓貴組織開始最佳化資源的建立。</block>
   <block id="7b7aa0d4bd1d1332a50f445e21889bc8" category="doc">為組織建置應用程式範本</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入門</block>
@@ -96,7 +82,6 @@
   <block id="dad57e95fc9a5390302ad830888cbdb9" category="inline-link">雲端備份</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="inline-link">雲端資料感測</block>
   <block id="45ebff704e28730c0e631bb5f09b2205" category="list-text">如果您計畫將雲端服務「行動」新增至範本、例如<block ref="65043dfb781746b8fde5bfddb319eb97" category="inline-link-rx"></block> 或<block ref="4af4db8698c4a0998b2c93dbadcf8efe" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
-  <block id="42ad9e938d3f22547c490ccfc69261fe" category="paragraph">選取*應用程式範本*服務、按一下*編輯器*索引標籤、然後選取您要在範本中使用的動作。</block>
   <block id="ba13d007a4f76ded358c0280157f648b" category="paragraph">請遵循建立步驟、並定義範本將執行的動作。</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">需求</block>
   <block id="4b09bdd4ca435f6a4b77b142f9481573" category="paragraph">請閱讀下列要求、確認您擁有支援的組態。</block>
@@ -107,9 +92,7 @@
   <block id="c731f72e1d22a7c5e01a7cb789a8885e" category="inline-link">GCP</block>
   <block id="45ef42d49d3545c2dc4c85b1084a47e4" category="list-text">建立Cloud Volumes ONTAP 一個功能不全的範本時、請務必Cloud Volumes ONTAP 為使用者提供一個功能不全的工作環境。瞭解如何在中啟動Cloud Volumes ONTAP 一套功能完善的系統<block ref="9d7ce7d64938e2f7608d2bb2edf0463c" category="inline-link-rx"></block>、<block ref="24f9dba5182403aa08072eb715753c19" category="inline-link-rx"></block>或<block ref="50ded4108906004e3a51ae63e78f7f8d" category="inline-link-rx"></block>。</block>
   <block id="b927c65793ede8840d859f745c1070b4" category="inline-link">探索內部部署ONTAP 的解決方案</block>
-  <block id="c8901a7a496874759b4b8b60b0de5c3d" category="list-text">建立內部部署ONTAP 的Sfor Volume範本時、請務必為ONTAP 使用者提供內部部署的可視環境。瞭解如何操作<block ref="73a5fece0c926f1d97e300f9e1e63b86" category="inline-link-rx"></block> 在Cloud Manager中。</block>
   <block id="89bbeb90a25e5540f1875c6148fc07a6" category="inline-link">打造Azure NetApp Files 一個不一樣的工作環境</block>
-  <block id="fb68c4d66bb3415869da179d1c3cca51" category="list-text">建立Azure NetApp Files 一個功能不全的範本時、請務必為Azure NetApp Files 使用者提供一個功能不全的工作環境。瞭解如何操作<block ref="476f1ab3b7492b38993b3c305f1332d8" category="inline-link-rx"></block> 在Cloud Manager中。</block>
   <block id="e6ed2b3f4bf8b70c7dffd440bfa20748" category="list-text">如果您打算使用Cloud Backup在範本中備份磁碟區、請確定您的環境已啟動Cloud Backup。</block>
   <block id="375fb9ecf54511eed57c23439aba8fa9" category="list-text">如果您打算使用Cloud Data Sense掃描範本中的磁碟區、請確定您的環境已啟動Cloud Data Sense。</block>
   <block id="b2db245c1e7b0de62f61003787ba3eb2" category="list-text">如果您計畫在範本中啟用複寫、且範本用於內部部署ONTAP 的SnapMirror Volume、ONTAP 則該叢集必須具有作用中的SnapMirror授權。</block>
@@ -123,7 +106,6 @@
   <block id="4611422bf9a4ff570849e7d651f9c0a2" category="paragraph">建立AWS環境的磁碟區、設定100 GB的儲存空間、將Snapshot原則設為「預設」、並啟用儲存效率。</block>
   <block id="d0285b972453920d44e9bfc537f86825" category="list-text">啟用雲端備份</block>
   <block id="0e7b1101bfe909f1f24d1bc082d8cb0b" category="paragraph">建立每天30次、每週13次和每月3次的備份（使用_3個月Retention _原則）。</block>
-  <block id="e4b455f83d8a2cbf227e5a6b6bd7ed8c" category="list-text">選取*應用程式範本*服務、按一下*範本*索引標籤、然後按一下*新增範本*。</block>
   <block id="12800accdcea8213a17428d96d3f650b" category="paragraph">此時會顯示「_Select_a Template」頁面。</block>
   <block id="ac454ecfe801e40640fcab274d8376c7" category="inline-image-macro">螢幕快照顯示如何選取要使用此範本執行的主要動作。</block>
   <block id="badf0b64af7e4dbccc924f1b86d16441" category="paragraph"><block ref="badf0b64af7e4dbccc924f1b86d16441" category="inline-image-macro-rx" type="image"></block></block>
@@ -177,7 +159,6 @@
   <block id="0728b4f74021dc704fab300222094c8b" category="list-text">按一下「*套用*」、雲端備份對話方塊即會儲存。</block>
   <block id="46725495896c458f104f504d53b4b320" category="list-text">在左上方輸入資料庫*的範本名稱* CVO Volume（例如）。</block>
   <block id="d69be6c531037f06436630d128988a41" category="list-text">按一下*「設定與飄移*」以提供更詳細的說明、以便將此範本與其他類似的範本區分開來、以便啟用整體範本的「飄移」功能、然後按一下*「套用*」。</block>
-  <block id="7d1cada9a49f8783660b223f3fef2678" category="paragraph">建立此範本時、Cloud Manager可監控您輸入的參數硬編碼值。</block>
   <block id="069cf34ab6ca64e85728193a5aab0a4e" category="list-text">按一下*儲存範本*。</block>
   <block id="8b8745414ffb4d1bc70671bfa839ed7d" category="paragraph">範本隨即建立、並返回範本儀表板、以顯示新範本。</block>
   <block id="5e0cbbeb0c7fbcd015cc8264aa380cf6" category="inline-xref">您應該告訴使用者哪些範本</block>
@@ -249,9 +230,7 @@
   <block id="2daf1cb573c2c61422faf64610cf9402" category="cell">認證資料</block>
   <block id="64917fe8c1577c91426bd43a4aef38db" category="cell">這些是 Cloud Volumes ONTAP 適用於整個叢集管理帳戶的認證資料。您可以使用這些認證資料Cloud Volumes ONTAP 、透過ONTAP 「系統管理程式」或其CLI連線至功能驗證。</block>
   <block id="2cebc28eab2cacd2695a37777c14a93f" category="cell">工作環境名稱</block>
-  <block id="98fed17197f2edc82ba68578c571fdbe" category="cell">Cloud Manager 會使用工作環境名稱來命名 Cloud Volumes ONTAP 支援系統和 Amazon EC2 執行個體。如果您選取該選項、它也會使用名稱做為預先定義安全性群組的前置詞。按一下欄位、然後選取5個選項之一。您可以選擇*任意文字*讓管理員輸入任何名稱、或是指定工作環境名稱必須有特定的字首或字尾、_包含_特定字元、或是遵循您輸入之規則運算式（regex）的規則。</block>
   <block id="ab2bc7358191e02d5aacdd2ddaa4233d" category="inline-link">AWS 文件：標記 Amazon EC2 資源</block>
-  <block id="b94b3141dd708a0d291780bdda339320" category="cell">AWS 標籤是 AWS 資源的中繼資料。Cloud Manager 會將標記新增至 Cloud Volumes ONTAP 該執行個體、以及與該執行個體相關聯的每個 AWS 資源。如需標記的相關資訊、請參閱<block ref="9bd250e03cdf80384a24635f16673602" category="inline-link-rx"></block>。</block>
   <block id="6101eef8fd3b11affed5baa0379eb7b5" category="inline-link">AWS工作表</block>
   <block id="21e39bab34fec6294e31fe4e65b232c7" category="list-text">*位置與連線*：輸入您在中記錄的網路資訊<block ref="837a3d1b1486e7cc7dba08a5d4a77996" category="inline-link-rx"></block>。這包括AWS區域、VPC、子網路和安全性群組。</block>
   <block id="6f27ddf091b10f1dfd4ab13be0759ec7" category="paragraph">如果您有 AWS Outpost 、 Cloud Volumes ONTAP 您可以選擇 Outpost VPC 、在該 Outpost 中部署單一節點的一套系統。體驗與 AWS 中的任何其他 VPC 相同。</block>
@@ -387,7 +366,6 @@
   <block id="5f29105c4fcb4fd7664c9b573f2325b4" category="paragraph">範本可讓您建立Cloud Volumes ONTAP 適用於內部Azure NetApp Files 部署ONTAP 的各種作業系統的各種資料。</block>
   <block id="e0fb2c2abefd11630ebc42b8a6eb3570" category="list-text">在您Cloud Volumes ONTAP 使用範本建立一個適用於內部部署ONTAP 的功能完善的功能區之前、Azure NetApp Files 請先確定您可以存取要部署該磁碟區的適當工作環境。</block>
   <block id="e04a6c526d4b3218b5b39dab077db37c" category="list-text">如果範本啟動磁碟區上的雲端服務、例如<block ref="65043dfb781746b8fde5bfddb319eb97" category="inline-link-rx"></block> 或<block ref="4af4db8698c4a0998b2c93dbadcf8efe" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
-  <block id="f931f9fe2a71453ad570183c341aa8ad" category="paragraph">選取「*應用程式範本*」服務、然後按一下「*範本*」索引標籤。</block>
   <block id="8e11a084ad23a73bf5ea573d54dded8e" category="paragraph">選取範本、按一下*執行範本*、然後在可編輯的欄位中輸入值以建立資源。</block>
   <block id="72e3ca24265542fce89dd834f12f4619" category="list-text">建立Cloud Volumes ONTAP 一個SNetApp功能區時、請確保Cloud Volumes ONTAP 您擁有一個可供使用的功能不全的工作環境。</block>
   <block id="be34f1201bb3e74c3a66c39a92d09bee" category="list-text">建立內部部署ONTAP 的SNetApp時、請確保您擁有內部部署ONTAP 的可運作環境。</block>
@@ -460,8 +438,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
-  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9 注意事項</block>
-  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="list-text"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
   <block id="6fab7ff15514de4d3ca2883bd502b6e7" category="inline-link-macro">AppTemplate注意事項</block>
   <block id="775a83959890feedd00e6dc592c3e60f" category="list-text"><block ref="775a83959890feedd00e6dc592c3e60f" category="inline-link-macro-rx"></block></block>
   <block id="1b5e9cae3a94402e9b6da6ef4080d155" category="summary">瞭解應用程式範本和標記的新功能。</block>
@@ -526,7 +502,6 @@
   <block id="824b76af9549cb14fd2443aa485afb15" category="section-title">2021年5月2日</block>
   <block id="719c876ca7b16f592c8bd26cdbb0ffaa" category="section-title">現在您可以在建立Volume範本時整合Cloud Data Sense</block>
   <block id="96e3f6826df4638ccb92b90bd780b773" category="paragraph">現在、您可以針對每個新建立的磁碟區啟用Data Sense、或為每個新建立的磁碟區啟用Cloud Backup、或是在建立的磁碟區上建立啟用Backup和Compliance的範本。</block>
-  <block id="fb83416536a7bb0dc17872352e0bab64" category="summary">AppTemplate服務可讓您在工作環境中標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。</block>
   <block id="8840e623646d3d59bdb75d58d2cbfb3c" category="doc">深入瞭解AppTemplate</block>
   <block id="29c77a5a00dda7efae90c176f1eaa37b" category="paragraph">範本可讓儲存管理員輕鬆建立專為每個已部署應用程式的工作負載需求最佳化的磁碟區、例如資料庫、電子郵件或串流服務。而且儲存架構設計師知道每個磁碟區都是針對每個應用程式最佳化建立、因此能更輕鬆地完成工作。</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
@@ -549,7 +524,6 @@
   <block id="99869d72f8362c5cb7e7d08bc7a9ad39" category="list-text">啟動<block ref="f2bb37938a60ba7c308705367c1f4d0b" category="inline-link-rx"></block> 在Volume上（Azure NetApp Files 不適用於</block>
   <block id="1872302bd774dd65cb025cb6c760357c" category="paragraph">例如、您可以建立建立Cloud Volumes ONTAP 一個範本來建立一個功能區。或是建立Cloud Volumes ONTAP 一個「還原」Volume、然後在該Volume上啟用「雲端備份」。或是建立Cloud Volumes ONTAP 一個SURFO Volume、然後在該Volume上啟用Cloud Backup _and Cloud Data感應。</block>
   <block id="3fb67d827d434a38ea3f2b8aca181ada" category="paragraph">NetApp會隨著時間增加更多行動。</block>
-  <block id="c160acbed127985d3bd7c45726c6e844" category="section-title">應用程式範本的運作方式</block>
   <block id="34d0c1b964384a0752aad91c917688a4" category="paragraph">應用程式範本服務由3個部分組成。執行範本後、可用的範本「動作」、自訂的應用程式範本、以及已部署的資源。下圖顯示每個元件之間的關係：</block>
   <block id="f5afa7cf8be08a4f697b8293dad144b2" category="inline-image-macro">與建立及使用應用程式範本有關的不同使用者圖表。</block>
   <block id="ecfa39b6560418cfe2345a90c8e7e31b" category="paragraph"><block ref="ecfa39b6560418cfe2345a90c8e7e31b" category="inline-image-macro-rx" type="image"></block></block>
@@ -562,12 +536,10 @@
   <block id="f8f85ac75a9d32ac7e4bd19a88c88489" category="paragraph">例如、他們會使用為資料庫建立的Volume範本、建立一個將用於Oracle資料庫的Volume。</block>
   <block id="537f35739e01ac333f01ac9b4cbc3e9f" category="list-text">服務會使用儲存架構設計師所決定的「飄移」功能、追蹤範本中定義的特定資源設定。</block>
   <block id="8c3c2e38ab977ab43a9ebd00e29973df" category="section-title">定價與授權</block>
-  <block id="0b316d343836cf391faa22682bb80037" category="paragraph">應用程式範本功能不需授權、所有Cloud Manager使用者均可免費使用。</block>
   <block id="2aa9db43c73bb2f52c729395f9446dd5" category="admonition">範本可讓您將雲端服務套用至已建立的資源、例如在每個Volume上啟用Cloud Backup。在這種情況下、使用備份服務和備份檔案所使用的物件儲存空間都會有成本。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
   <block id="8f39707abf86186330a61f0aa7f57c55" category="list-text">任何Gov Cloud區域或沒有網際網路存取的站台均不支援AppTemplate服務。</block>
   <block id="5853165343224a78fee94389519a9b28" category="list-text">您無法使用範本在Cloud Volumes ONTAP 現有的Aggregate上建立一個流通量。新的磁碟區會建立在新的Aggregate中。</block>
-  <block id="e1f059ce610c426bc048a916e53ae32d" category="summary">Cloud Manager可以監控使用「偏移」功能建立範本的資源時所使用的參數值。「飄移」可識別已變更且不再符合範本設定的資源。</block>
   <block id="738c328d0087a068339b3d63cd01f51a" category="doc">檢查資源是否符合範本規範</block>
   <block id="2ab3e4cd0d86d65f9d51ef66c0c979a1" category="section-title">漂流如何運作</block>
   <block id="270a79863849b0f5a1fb6e3ca8c5e8cf" category="paragraph">偏移可識別不符合規範的參數、如下所示：</block>
@@ -613,18 +585,14 @@
   <block id="16c2c563a9c70bc38dcd5058d89852a7" category="inline-image-macro">DrivFT報告的快照、顯示不健全的SnapMirror關係複寫詳細資料。</block>
   <block id="dda535bed967fed0495f552c6c54b14e" category="paragraph"><block ref="dda535bed967fed0495f552c6c54b14e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9986dfbd663475bd0b9a159d82e3587" category="paragraph">*附註：*複寫一開始會套用至磁碟區、因此健全狀況會傳回為「假」、表示這是不健全的。幾分鐘後、將會顯示實際的複寫狀態。</block>
-  <block id="8c56922858331beaa2fea4df2fc792c6" category="summary">Cloud Manager可讓您將標記套用至現有資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。</block>
   <block id="bed434cdb82938c37e10ec775ee39334" category="doc">深入瞭解標記</block>
   <block id="40fa3ed3deb11f4523fb01c3e53cd533" category="paragraph">標籤由*標籤機碼*和*標籤值*組成。例如、您可以建立名為「Environment」的標記機碼、然後新增「Production」和「Test」的標記值。將這些資源套用至您的資源之後、您可以快速搜尋並檢視符合金鑰/值配對的資源。</block>
-  <block id="3ebce6b779786d56694bbe904777f9b7" category="inline-link-macro">您所建置的Cloud Manager範本</block>
-  <block id="c076b5a8076ba06e9f4f25544552b0f8" category="paragraph">您可以在建立工作環境或Azure NetApp Files 使用本產品時、將標記金鑰/值配對新增至_new資源。您也可以在中定義標記金鑰/值配對 <block ref="cccec4231e26dd3cfde8f707c64ce7d6" category="inline-link-macro-rx"></block> 適用於您的儲存管理員和DevOps工程師。</block>
   <block id="126a062727c3057b3a937eb69aaa1597" category="paragraph">您可以使用標記服務新增標記、也可以變更或刪除現有標記。</block>
   <block id="5e30e27f68a75ca7a2e3182f2dd12b16" category="paragraph">標記服務提供下列功能與優點：</block>
   <block id="3ea3f03a9826c525b7f8e89cf5f45bb0" category="list-text">建立符合您環境中所用詞彙的標記索引鍵和標記值</block>
   <block id="39aff6391798a3cbbbd4f8b8cd74dc8c" category="list-text">整理環境中的資源、以利監控和管理</block>
   <block id="9a9d09dff347b4f762cb3ea1cb1761a1" category="list-text">依資源類型新增、移除及編輯標記索引鍵和標記值</block>
   <block id="4aeb19e9643ca4bd7c08134d7f5d73ad" category="list-text">標記ONTAP AWS和Azure環境中的資源和資源。</block>
-  <block id="15a9a77c4cf2e80203ba12f1c0e8550c" category="paragraph">若要標記您的資源、無需授權、所有具有「帳戶管理」或「工作區管理」角色的Cloud Manager使用者均可自由使用。</block>
   <block id="9b3643d929067c43445625ecc4b23130" category="section-title">您可以標記的資源</block>
   <block id="b087cfd5a6751cde85bc43abdbea1db3" category="paragraph">您可以將標記套用至下列資源。</block>
   <block id="27703c8f150ac4bb0a3a83a7857353af" category="cell">供應商</block>
@@ -657,9 +625,7 @@
   <block id="3b0992b7e8536fc1e15651502081b6e6" category="paragraph">如需Google標籤的相關資訊、請參閱<block ref="5b102b4e66babd115f4b84c9458d0cfc" category="inline-link-rx"></block>。</block>
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="section-title">先決條件</block>
   <block id="2e555eb89efbc4fa0651bd1f644cf78e" category="section-title">驗證您的AWS Connector權限</block>
-  <block id="ede60e0200bc22484e50c25ec183617f" category="paragraph">如果您是使用Cloud Manager 3.9.10或更新版本建立Connector、那麼您就已經設定好了。如果您使用舊版Cloud Manager建立Connector、則需要新增Cloud Manager IAM角色的一些必要權限、以標記AWS EC2執行個體：</block>
   <block id="f684df81e4cb924eb887af3d63731c28" category="section-title">驗證Azure Connector權限</block>
-  <block id="55e86ad3487f5a74e4a7f3adf4c7d04c" category="paragraph">如果您是使用Cloud Manager 3.9.10或更新版本建立Connector、那麼您就已經設定好了。如果您使用舊版Cloud Manager建立Connector、則需要新增Cloud Manager營運者IAM角色的必要權限、以標記Azure資源：</block>
   <block id="2a6cf45576e45e1753cb8e4a3218f9bf" category="section-title">標記規則與限制</block>
   <block id="310e25dd524b7da8c8ff6eb8edf50e5f" category="paragraph">建立標記金鑰和標記值時、適用下列規則：</block>
   <block id="47c6baf2a93fb70987f8d50230d68450" category="list-text">金鑰長度上限：128個字元</block>
@@ -687,7 +653,6 @@
   <block id="3f8e4e6365aa394b3479fdef75fe9f72" category="paragraph">核取此方塊可讓儲存管理員覆寫您在範本中輸入的預先填入值。這可讓儲存設備管理員建議應使用的值、但可讓他們在建立資源時自訂值。</block>
   <block id="c1740fe5b39f93f6c892f09718e037b2" category="paragraph">取消核取時、使用者無法變更值、而且系統管理員部署資源時、一律會使用範本中的硬編碼值。</block>
   <block id="c476134c72fb48531290a4040a823edc" category="section-title">偏移核取方塊</block>
-  <block id="85ae8cb8d8b796e60de4989a08de70c5" category="paragraph">核取此方塊、以便Cloud Manager在使用範本建立資源時、監控您為參數輸入的硬編碼值。稍後、您可以執行「DrivFT報告」、查看哪些已設定為「DrivFT」的欄位不再符合範本設定。</block>
   <block id="b24825d81b9d78c2ec0b3766ce0f0e29" category="paragraph">取消核取時、使用者可以在建立資源之後、將值變更為任何值。</block>
   <block id="dc61d8962272ba87fc289d3611028a92" category="admonition">為使飄移特徵正常運作、在範本中定義某些參數的偏移之後、您必須啟用範本的偏移特徵。這是建立範本的最後一個步驟。如果已啟用參數但尚未在範本上啟用、就無法使用偏移。</block>
   <block id="14425fa948dd33c64b1ac596d827664d" category="section-title">在欄位中使用規則運算式（regex）</block>
@@ -699,9 +664,7 @@
   <block id="49c2ea485e68d2177e58bb2d451473c8" category="paragraph">範本能夠使用先前動作的資訊、在未來的行動中填入欄位。例如、當定義將啟用Cloud Backup功能的磁碟區名稱時、您可以指示備份動作使用儲存設備管理員在「Create Cloud Volumes ONTAP 」（建立）動作中輸入的磁碟區名稱值。</block>
   <block id="317d9ac287a0bb30f0b154a9372237b4" category="paragraph">AppTemplate服務可使用三種類型的資訊：</block>
   <block id="79bc4a04a5f308a67f608558bf0e314a" category="list-text">輸入值：這是儲存設備管理員在先前範本動作的欄位中輸入的實際值。</block>
-  <block id="86d263367d069f32b10ed5bb15d5876b" category="list-text">輸出值：這是Cloud Manager從先前的範本動作建立資源後所產生的價值。</block>
   <block id="cb1be534cc7a13fb27acf340f07c83b6" category="list-text">輸入您自己的值-這是您輸入的值、無法從範本中的先前動作存取。</block>
-  <block id="fc8fb6e55d63eccfe4d2093ef3d494bf" category="paragraph">例如、若要在磁碟區上啟用法規遵循掃描、Cloud Data Sense服務需要儲存設備管理員輸入的「Volume name」（磁碟區名稱）（輸入值）、以及Cloud Manager在建立磁碟區時產生的「Volume uuid」（輸出值）。</block>
   <block id="536e2c2dd1b0f2e4362deffc386760c4" category="paragraph">下圖顯示如何在範本的「Cloud Data Sense Action（雲端資料感測行動）」區段中輸入此資訊。</block>
   <block id="a4d99746ded90308d15ecf5dc8850229" category="inline-image-macro">顯示如何使用在先前動作中輸入的值、在其他動作中填入欄位的圖例。</block>
   <block id="eefa405d25c68122a3d10c7be99b3fed" category="paragraph"><block ref="eefa405d25c68122a3d10c7be99b3fed" category="inline-image-macro-rx" type="image"></block></block>
@@ -718,7 +681,6 @@
   <block id="c962626fb4ad9b65cc3a4217695f094c" category="paragraph">規則由三個部分組成：</block>
   <block id="7960c7072233e2369dad8e54b3c23d04" category="paragraph">*來源欄位*：您將從中取得值進行比較的位置。</block>
   <block id="46b1885cab50ba7f852ee7e4296586b1" category="list-text">從行動取得輸入值：儲存設備管理員在先前範本行動的欄位中輸入的實際值。</block>
-  <block id="2e1dd6450d9c9986cc77c74a7e699498" category="list-text">從行動取得輸出值：從先前的範本動作建立資源之後所產生的Cloud Manager價值。</block>
   <block id="ac2e89a4baae83530e11a9c64165f130" category="list-text">Enter Value（輸入值）-這是您輸入的值、無法從範本中的先前動作存取。這可以是現有資源的值、例如現有的Volume。</block>
   <block id="f7d6dca310f4edc482b1d3bd0cdfb18f" category="paragraph">*運算子*-用於比較的運算子。選項包括*等*、*不等於*、*大於*、*小於*、*大於或等於*、*小於或等於*。</block>
   <block id="67547dca721bdbf95912a7906fe534d0" category="paragraph">*欄位值*-您要比較的實際值。選項與_來源欄位_的選項相同。</block>
@@ -726,26 +688,13 @@
   <block id="ebb6a65b01a975d2a1a81fadb941a41c" category="paragraph">在規則中同時使用和和或陳述式時、評估程序會遵循標準的數學順序、其中「和」會在「OR」之前。例如：</block>
   <block id="d53609834d8e761d8b38e21f9aa36fda" category="list-text">&lt;Rule1&gt;或&lt;Rule2&gt;和&lt;Rule3&gt;</block>
   <block id="313a2072e1da794cb340b46d310d902f" category="paragraph">此陳述式的評估順序如下：&lt;Rule1&gt;或（&lt;Rule&gt;&gt;和&lt;Rule3&gt;）</block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先將NetApp支援網站帳戶新增至Cloud Manager、然後註冊以取得支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">新增一個NSS帳戶</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">「支援儀表板」可讓您從單一位置新增及管理所有NetApp支援網站帳戶。</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">註冊一項</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">如果您還沒有 NetApp 支援網站帳戶、<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>。</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在Cloud Manager主控台右上角、按一下「說明」圖示、然後選取*「支援」*。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出現提示時、按一下*繼續*以重新導向至Microsoft登入頁面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">此動作可讓Cloud Manager使用您的NSS帳戶。</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">附註：帳戶必須是客戶層級的帳戶（非來賓帳戶或臨時帳戶）。</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">註冊您的帳戶以取得支援</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">支援註冊可從支援儀表板的Cloud Manager取得。</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">在* Resources（資源）*選項卡中，單擊* Register for Support*（註冊以獲得支持*）。</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">選取您要登錄的NSS認證、然後按一下「*登錄*」。</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="01861a2435910cac249c0a1eaea3e27b" category="sidebar">應用程式範本文件</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -771,8 +720,126 @@
   <block id="441c6d31d8063270a27b242c68cc0e6e" category="sidebar">執行可尋找現有資源的範本</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="214a61ce436e46b661501acdeee5221c" category="paragraph">此時、心軸會識別資源中已變更的參數、您必須手動調整資源、使其符合範本的要求。未來當資源超出法規遵循範例時、我們將能傳送通知給您、甚至可以反轉使用者的變更、使從範本建立的所有資源自動恢復法規遵循狀態。</block>
   <block id="5bd5bf968b8be74cc15838b062223bc7" category="paragraph">此時、您需要手動調整資源、使其符合範本的要求。 <block ref="070f7b254d8faecc6fc5a699202bdab9" category="inline-link-macro-rx"></block>。</block>
+  <block id="cfd52dcb30bb7d2ea88bc2c66e2ccc0f" category="summary">BlueXP可讓您將標記套用至您的_existing _資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。</block>
+  <block id="b30d9d9c3aca3c78264405a3976afc34" category="paragraph">BlueXP（前身為Cloud Manager）可讓您將標記套用至現有資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。</block>
+  <block id="8b560c81adceb205c323088796c3a9c7" category="inline-link-macro">您所建置的BlueXP範本</block>
+  <block id="2e163db3e69e348e895ac4042c0f4c9c" category="paragraph">您可以在建立工作環境或Azure NetApp Files 使用本產品時、將標記金鑰/值配對新增至_new資源。您也可以在中定義標記金鑰/值配對 <block ref="cf5b7c6993b005a6e69e2b6094f6daa8" category="inline-link-macro-rx"></block> 適用於您的儲存管理員和DevOps工程師。</block>
+  <block id="7ed5899669a5929914b723a2baef182d" category="paragraph">標記資源的功能不需要授權、而且具有「帳戶管理」或「工作區管理」角色的所有BlueXP使用者都可以自由使用。</block>
+  <block id="d912e080eacd169b9c6ec8ad804b0fe2" category="paragraph">如果您使用BlueXP 3.9.10版或更新版本建立Connector、就會設定好。如果您使用較早版本的BlueXP建立Connector、則需要新增一些BlueXP IAM角色所需的權限、以標記AWS EC2執行個體：</block>
+  <block id="61e852c379d0f3c7c2f47bcd0152539d" category="paragraph">如果您使用BlueXP 3.9.10版或更新版本建立Connector、就會設定好。如果您使用較早版本的BlueXP建立Connector、則需要新增一些必要的權限給BlueXP運算子IAM角色、以標記Azure資源：</block>
+  <block id="2dd9329059e344c5425db239b998fb7b" category="summary">AppTemplate服務可讓您標準化BlueXP工作環境的資源建立。</block>
+  <block id="81736c3492216167017a2d56ef452f6f" category="paragraph">選取*健全狀況&gt;補救*、按一下*編輯器*索引標籤、然後選取您要在範本中使用的動作。</block>
+  <block id="e30afa6af477c023130a06261e3f1227" category="list-text">建立內部部署ONTAP 的Sfor Volume範本時、請務必為ONTAP 使用者提供內部部署的可視環境。瞭解如何操作<block ref="73a5fece0c926f1d97e300f9e1e63b86" category="inline-link-rx"></block> 在BlueXP中。</block>
+  <block id="592b06abb0acdfe2b240cddf86e10637" category="list-text">建立Azure NetApp Files 一個功能不全的範本時、請務必為Azure NetApp Files 使用者提供一個功能不全的工作環境。瞭解如何操作<block ref="476f1ab3b7492b38993b3c305f1332d8" category="inline-link-rx"></block> 在BlueXP中。</block>
+  <block id="44fbc3f04f1c80f38f04a2c9ae828fad" category="list-text">選擇*健全狀況&gt;補救*、按一下*範本*索引標籤、然後按一下*新增範本*。</block>
+  <block id="0107177951fcfb1e8290634ec2f0b1ad" category="paragraph">建立此範本時、可使用心軸來監控輸入參數的硬編碼值。</block>
+  <block id="14938059a03b38f1f630bba556c15624" category="cell">BlueXP使用工作環境名稱來命名Cloud Volumes ONTAP 整個系統、以及Amazon EC2執行個體。如果您選取該選項、它也會使用名稱做為預先定義安全性群組的前置詞。按一下欄位、然後選取5個選項之一。您可以選擇*任意文字*讓管理員輸入任何名稱、或是指定工作環境名稱必須有特定的字首或字尾、_包含_特定字元、或是遵循您輸入之規則運算式（regex）的規則。</block>
+  <block id="42b463e9a7149a42c8aa33ac96a9611d" category="cell">AWS 標籤是 AWS 資源的中繼資料。BlueXP會將標記新增Cloud Volumes ONTAP 至該執行個體、以及與該執行個體相關聯的每個AWS資源。如需標記的相關資訊、請參閱<block ref="9bd250e03cdf80384a24635f16673602" category="inline-link-rx"></block>。</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援（NSS）帳戶、然後註冊以取得支援。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在Cloud Volumes ONTAP 雲端供應商的市場中註冊與訂閱相關的支援服務序號（這些序號為20位數909601xxxxxxxx序號）。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由BlueXP產生。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">您的註冊方式取決於您是新客戶或現有客戶或合作夥伴。</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">現有客戶或合作夥伴</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">身為現有的NetApp客戶或合作夥伴、您可以使用NetApp 支援網站 您的畫面（NSS）SSO帳戶執行上述登錄。在「支援儀表板」中、BlueXP提供一個* nssn*管理*頁面、您可以在其中新增您的nssa帳戶。新增您的NSS帳戶後、BlueXP會自動為您註冊這些序號。</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">瞭解如何新增您的NSS帳戶</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp新推出</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">如果您是NetApp的新客戶、您必須在NetApp的支援註冊網站上完成一次性註冊您的BlueXP帳戶ID序號。完成此註冊並建立新的NSS帳戶之後、您就可以在BlueXP中使用此帳戶自動註冊、以便繼續進行。</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">瞭解如何向NetApp註冊</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">新增一個NSS帳戶至藍圖XP</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">「支援儀表板」可讓您新增及管理NetApp 支援網站 要搭配Cloud Manager使用的各種不一致帳戶。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶層級的帳戶、可以新增一或多個NSS帳戶。</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP主控台右上角、按一下「說明」圖示、然後選取「*支援*」。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">這些行動可讓BlueXP將您的nssa帳戶用於授權下載、軟體升級驗證、以及未來的支援註冊等項目。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">帳戶必須是客戶層級的帳戶（不是來賓帳戶或臨時帳戶）。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個橫點的圖示</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。使用此選項會提示您重新登入。</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp註冊</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">現有的客戶、擁有一個新服務客戶帳戶</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、您只需透過BlueXP註冊即可獲得支援。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未這麼做、請將您的NSS帳戶新增至藍圖XP。</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*資源*頁面上、按一下*註冊以取得支援*。</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">顯示帳戶序號和「Register for Support」（註冊支援）選項的快照</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶、但無NSS.帳戶</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是現有的NetApp客戶、擁有現有授權和序號、但_否_ nss_帳戶、您只需要建立一個nss.帳戶。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">《使用者登錄表》NetApp 支援網站</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">完成建立NetApp 支援網站 一個不完善的帳戶<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">請務必選擇適當的使用者層級、通常為* NetApp客戶/終端使用者*。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">請務必複製上述序號欄位使用的BlueXP帳戶序號（960xxxx）。這將加速帳戶處理。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新推出</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客戶、而且您沒有新的NSS帳戶、請依照下列每個步驟操作。</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">從「Support Registration（支援登錄）」頁面找到Cloud Manager帳戶ID序號。</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支援註冊網站</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">瀏覽至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 並選擇*我不是NetApp註冊客戶*。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（紅色星號）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*產品系列*欄位中、選取* Cloud Manager*、然後選取適用的帳單供應商。</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">複製上述步驟2的Cloud Manager帳戶序號、完成安全性檢查、然後確認您已閱讀NetApp的全球資料隱私權政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">系統會立即將電子郵件傳送至提供的信箱、以完成此安全交易。如果驗證電子郵件在幾分鐘內未送達、請務必檢查您的垃圾郵件資料夾。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">確認電子郵件中的行動。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認將您的申請提交給NetApp、並建議您建立NetApp 支援網站 一個申請表。</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">請務必將上述使用的Cloud Manager帳戶序號（960xxxx）複製到序號欄位。這將加速帳戶處理。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">一旦擁有NetApp 支援網站 您的不二帳戶、您就可以瀏覽至BlueXP、新增此新的NSS-帳戶以供日後登錄。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">瞭解如何註冊以取得支援</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">若要使用*建立案例*功能、您必須先執行一次性註冊您的BlueXP帳戶ID序號（例如960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、按一下*「說明」&gt;「支援」*。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您想與電話上的其他人通話、請按一下*「呼叫我們*」。您將會被導向netapp.com上的頁面、其中列出您可以撥打的電話號碼。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">按一下*建立案例*、與NetApp支援專家一起開啟問題單：</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*《支援帳戶*》：選取與開立支援案例的人員相關的適用的NSS帳戶。NetApp 支援網站除了以下提供的其他電子郵件之外、此人將是NetApp聯絡的主要聯絡人。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至BlueXP「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="a687989eefccb6d7024bfaee46859103" category="paragraph">選擇*健全狀況&gt;補救*、然後按一下*範本*索引標籤。</block>
+  <block id="65b46511d02a19c141330a17641ebc2f" category="summary">AppTemplate服務可讓您在BlueXP的工作環境中、標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。</block>
+  <block id="6f5f9a149e1cd9abec2bd8310110be5e" category="paragraph">AppTemplate服務可讓您在BlueXP（前身為Cloud Manager）的工作環境中、標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。</block>
+  <block id="b02190159d307046a1fc115e2234c430" category="section-title">應用程式範本的運作方式</block>
+  <block id="928cf9c83840b963ee70f31eae6f5478" category="paragraph">應用程式範本功能不需要授權、所有的BlueXP使用者都可以免費使用。</block>
+  <block id="d2d3ce785dba13fa31c8dfdc4f170942" category="paragraph">核取此方塊、以便在使用範本建立資源時、BlueXP會監控您為參數輸入的硬編碼值。稍後、您可以執行「DrivFT報告」、查看哪些已設定為「DrivFT」的欄位不再符合範本設定。</block>
+  <block id="362fe13e1711f8ee61db2bea123b8a0d" category="list-text">輸出值：這是從先前的範本動作建立資源之後、BlueXP所產生的值。</block>
+  <block id="1faebed438b9f49efa46643ad9907fb7" category="paragraph">例如、若要在磁碟區上啟用法規遵循掃描、Cloud Data Sense服務需要儲存設備管理員輸入的「Volume name」（磁碟區名稱）（輸入值）、以及BlueXP建立磁碟區時產生的「Volume uuid」（輸出值）。</block>
+  <block id="57b9871adc92cb08516da8d18bf96f74" category="list-text">從行動取得輸出值：從先前的範本動作建立資源之後所產生的值BlueXP。</block>
+  <block id="5dd11df101133565c34a0a5cfef5f86e" category="summary">BlueXP可以監控使用「飄移」功能建立範本的資源所使用的參數值。「飄移」可識別已變更且不再符合範本設定的資源。</block>
+  <block id="6d28d54ad9c4f6685bb752801088510b" category="summary">您可以使用BlueXP標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。</block>
+  <block id="10b56653c6ddbf81d7d4419364238254" category="list-text">選擇*健全狀況&gt;補救*、然後按一下*標記*索引標籤。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
 </blocks>

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-tagging.html 
 keywords: tags, overview, conceptual, resource tags, volume tags, AWS tags, Azure tags 
-summary: Cloud Manager可讓您將標記套用至現有資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。 
+summary: BlueXP可讓您將標記套用至您的_existing _資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。 
 ---
 = 深入瞭解標記
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: Cloud Manager可讓您將標記套用至現有資源、以協助組織�
 
 
 [role="lead"]
-Cloud Manager可讓您將標記套用至現有資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。
+BlueXP（前身為Cloud Manager）可讓您將標記套用至現有資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。
 
 標籤由*標籤機碼*和*標籤值*組成。例如、您可以建立名為「Environment」的標記機碼、然後新增「Production」和「Test」的標記值。將這些資源套用至您的資源之後、您可以快速搜尋並檢視符合金鑰/值配對的資源。
 
-您可以在建立工作環境或Azure NetApp Files 使用本產品時、將標記金鑰/值配對新增至_new資源。您也可以在中定義標記金鑰/值配對 link:task-define-templates.html["您所建置的Cloud Manager範本"] 適用於您的儲存管理員和DevOps工程師。
+您可以在建立工作環境或Azure NetApp Files 使用本產品時、將標記金鑰/值配對新增至_new資源。您也可以在中定義標記金鑰/值配對 link:task-define-templates.html["您所建置的BlueXP範本"] 適用於您的儲存管理員和DevOps工程師。
 
 您可以使用標記服務新增標記、也可以變更或刪除現有標記。
 
@@ -38,7 +38,7 @@ Cloud Manager可讓您將標記套用至現有資源、以協助組織及管理�
 
 == 定價與授權
 
-若要標記您的資源、無需授權、所有具有「帳戶管理」或「工作區管理」角色的Cloud Manager使用者均可自由使用。
+標記資源的功能不需要授權、而且具有「帳戶管理」或「工作區管理」角色的所有BlueXP使用者都可以自由使用。
 
 
 
@@ -97,7 +97,7 @@ Cloud Manager可讓您將標記套用至現有資源、以協助組織及管理�
 
 === 驗證您的AWS Connector權限
 
-如果您是使用Cloud Manager 3.9.10或更新版本建立Connector、那麼您就已經設定好了。如果您使用舊版Cloud Manager建立Connector、則需要新增Cloud Manager IAM角色的一些必要權限、以標記AWS EC2執行個體：
+如果您使用BlueXP 3.9.10版或更新版本建立Connector、就會設定好。如果您使用較早版本的BlueXP建立Connector、則需要新增一些BlueXP IAM角色所需的權限、以標記AWS EC2執行個體：
 
 [source, json]
 ----
@@ -121,7 +121,7 @@ Cloud Manager可讓您將標記套用至現有資源、以協助組織及管理�
 
 === 驗證Azure Connector權限
 
-如果您是使用Cloud Manager 3.9.10或更新版本建立Connector、那麼您就已經設定好了。如果您使用舊版Cloud Manager建立Connector、則需要新增Cloud Manager營運者IAM角色的必要權限、以標記Azure資源：
+如果您使用BlueXP 3.9.10版或更新版本建立Connector、就會設定好。如果您使用較早版本的BlueXP建立Connector、則需要新增一些必要的權限給BlueXP運算子IAM角色、以標記Azure資源：
 
 [source, json]
 ----
