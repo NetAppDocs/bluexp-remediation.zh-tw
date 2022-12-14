@@ -22,16 +22,20 @@ summary: 選取NetApp提供的一或多個「行動」、然後快速建立應�
 
 請依照下列步驟快速入門、或向下捲動至其餘部分以取得完整詳細資料。
 
-.span class="image"><imgrc="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png"[] alt="1"></span>請確認必要的先決條件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 驗證必要的先決條件
+[role="quick-margin-list"]
 * 在使用Cloud Volumes ONTAP 者使用ONTAP 範本建立一個適用於內部部署的功能完善的功能區之前、Azure NetApp Files 請先確認他們能夠存取適當的工作環境、以便部署Volume。
 
 
+[role="quick-margin-list"]
 * 如果您計畫將雲端服務「行動」新增至範本、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 啟動應用程式範本服務
 [role="quick-margin-para"]
 選取*健全狀況>補救*、按一下*編輯器*索引標籤、然後選取您要在範本中使用的動作。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 選取「動作」並定義參數、以建立範本
 [role="quick-margin-para"]
 請遵循建立步驟、並定義範本將執行的動作。
 
@@ -167,9 +171,10 @@ image:screenshot_create_template_add_action.png["快照顯示可新增至所建�
 . 按一下*儲存範本*。
 
 
+.結果
 範本隨即建立、並返回範本儀表板、以顯示新範本。
 
-請參閱  to do after you have created the template,您應該告訴使用者哪些範本。
+請參閱 <<建立範本後該怎麼辦,您應該告訴使用者哪些範本>>。
 
 
 
@@ -268,9 +273,10 @@ image:screenshot_create_template_define_action_anf.png["螢幕快照顯示您需
 . 按一下*儲存範本*。
 
 
+.結果
 範本隨即建立、並返回範本儀表板、以顯示新範本。
 
-請參閱  to do after you have created the template,您應該告訴使用者哪些範本。
+請參閱 <<建立範本後該怎麼辦,您應該告訴使用者哪些範本>>。
 
 
 
@@ -366,9 +372,10 @@ image:screenshot_create_template_define_action_onprem.png["螢幕快照顯示您
 . 按一下*儲存範本*。
 
 
+.結果
 範本隨即建立、並返回範本儀表板、以顯示新範本。
 
-請參閱  to do after you have created the template,您應該告訴使用者哪些範本。
+請參閱 <<建立範本後該怎麼辦,您應該告訴使用者哪些範本>>。
 
 
 
@@ -449,7 +456,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 +
 如果範本值已正確完成、則會在「Create Working Environment in AWS（單一節點）（在AWS中建立工作環境）」方塊中新增綠色核取標記。
 
-. 您可能想在此範本中新增其他動作、以便為此工作環境建立磁碟區。如果是、請按一下 image:button_plus_sign_round.png["加號按鈕"] 並新增這項行動。瞭解如何操作  a template for a Cloud Volumes ONTAP volume,建立Cloud Volumes ONTAP 一個範本、以供作一份不全版的範本 以取得詳細資料。
+. 您可能想在此範本中新增其他動作、以便為此工作環境建立磁碟區。如果是、請按一下 image:button_plus_sign_round.png["加號按鈕"] 並新增這項行動。瞭解如何操作 <<建立Cloud Volumes ONTAP 一個範本、以供作一份不全版的範本,建立Cloud Volumes ONTAP 一個範本、以供作一份不全版的範本>> 以取得詳細資料。
 . 在左上方輸入範本名稱。
 . 按一下*「設定與飄移*」以提供更詳細的說明、以便將此範本與其他類似的範本區分開來、以便啟用整體範本的「飄移」功能、然後按一下*「套用*」。
 +
@@ -458,9 +465,10 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 . 按一下*儲存範本*。
 
 
+.結果
 範本隨即建立、並返回範本儀表板、以顯示新範本。
 
-請參閱  to do after you have created the template,您應該告訴使用者哪些範本。
+請參閱 <<建立範本後該怎麼辦,您應該告訴使用者哪些範本>>。
 
 
 
@@ -544,13 +552,14 @@ image:screenshot_define_find_resource_search_criteria.png["快照顯示您為「
 +
 image:screenshot_template_add_backup_action.png["快照顯示將Cloud Backup動作新增至範本的步驟。"]
 
-. 現在您可以定義中所述的備份準則  Backup functionality to a volume,新增備份功能至磁碟區 如此一來、範本就會將正確的備份原則套用至您從「尋找現有資源」動作中選取的磁碟區。
+. 現在您可以定義中所述的備份準則 <<新增備份功能至磁碟區,新增備份功能至磁碟區>> 如此一來、範本就會將正確的備份原則套用至您從「尋找現有資源」動作中選取的磁碟區。
 . 按一下「*套用*」以儲存您對備份動作所做的自訂作業、然後在完成時按一下「*儲存範本*」。
 
 
+.結果
 範本隨即建立、並返回範本儀表板、以顯示新範本。
 
-請參閱  to do after you have created the template,您應該告訴使用者哪些範本。
+請參閱 <<建立範本後該怎麼辦,您應該告訴使用者哪些範本>>。
 
 
 
@@ -593,9 +602,10 @@ image:screenshot_define_find_work_env.png["顯示空白的「尋找現有資源�
 . 在左上角輸入範本名稱、然後按一下*儲存範本*
 
 
+.結果
 範本隨即建立、並返回範本儀表板、以顯示新範本。
 
-請參閱  to do after you have created the template,您應該告訴使用者哪些範本。
+請參閱 <<建立範本後該怎麼辦,您應該告訴使用者哪些範本>>。
 
 
 

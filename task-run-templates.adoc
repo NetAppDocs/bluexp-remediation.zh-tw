@@ -24,16 +24,20 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 請依照下列步驟快速入門、或向下捲動至其餘部分以取得完整詳細資料。
 
-.span class="image"><imgrc="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png"[] alt="1"></span>請確認必要的先決條件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 驗證必要的先決條件
+[role="quick-margin-list"]
 * 在您Cloud Volumes ONTAP 使用範本建立一個適用於內部部署ONTAP 的功能完善的功能區之前、Azure NetApp Files 請先確定您可以存取要部署該磁碟區的適當工作環境。
 
 
+[role="quick-margin-list"]
 * 如果範本啟動磁碟區上的雲端服務、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 啟動應用程式範本服務
 [role="quick-margin-para"]
 選擇*健全狀況>補救*、然後按一下*範本*索引標籤。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 執行範本並定義參數、以建置資源
 [role="quick-margin-para"]
 選取範本、按一下*執行範本*、然後在可編輯的欄位中輸入值以建立資源。
 
@@ -175,6 +179,7 @@ image:screenshot_template_find_search_results.png["快照顯示從「尋找資�
 
 
 
+.結果
 範本將會執行、並在您從搜尋條件中檢查的每個磁碟區上啟用Cloud Backup。
 
 任何錯誤都會在_執行您的範本_頁面中叫出、您可以視需要解決問題。
