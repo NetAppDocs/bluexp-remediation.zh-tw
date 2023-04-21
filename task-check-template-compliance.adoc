@@ -87,7 +87,7 @@ image:screenshot_template_drift_report_one_resource.png["單一資源的飄移�
 
 === 漂移報告中的 BlueXP 複寫健全狀況詳細資料
 
-何時 link:task-define-templates.html#add-replication-functionality-to-a-volume["使用範本在磁碟區上啟用 BlueXP 複寫"]、您可以選擇在「啟用複寫健全狀況監控」欄位中啟用偏移、以在偏移報告中顯示更詳細的複寫資訊。啟用時、漂移報告會顯示 BlueXP 複寫關係的健全狀況或不良狀況（漂移）、以及 SnapMirror 延遲時間、狀態和上次傳輸時間。
+何時 link:task-define-templates.html#add-bluexp-classification-functionality-to-a-volume["使用範本在磁碟區上啟用 BlueXP 複寫"]、您可以選擇在「啟用複寫健全狀況監控」欄位中啟用偏移、以在偏移報告中顯示更詳細的複寫資訊。啟用時、漂移報告會顯示 BlueXP 複寫關係的健全狀況或不良狀況（漂移）、以及 SnapMirror 延遲時間、狀態和上次傳輸時間。
 
 此快照顯示在偏移報告中、SnapMirror關係不健全的複寫詳細資料。
 

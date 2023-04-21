@@ -182,7 +182,7 @@ image:screenshot_create_template_add_action.png["快照顯示可新增至所建�
 
 建立Azure NetApp Files 一套範本以建立Cloud Volumes ONTAP 一套範本的方式來建立一個適用於整個過程的範本。
 
-請參閱 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-manage-anf-volumes.html#creating-volumes["如何配置Azure NetApp Files 功能不均"^] 如需在ANF Volume範本中完成所有必要參數的詳細資料、
+請參閱 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-create-volumes.html#create-volumes["如何配置Azure NetApp Files 功能不均"^] 如需在ANF Volume範本中完成所有必要參數的詳細資料、
 
 .步驟
 . 選擇*健全狀況>補救*、按一下*範本*索引標籤、然後按一下*新增範本*。
@@ -695,7 +695,7 @@ image:screenshot_template_replication_policy.png["頁面的螢幕擷取畫面、
 +
 .. 選取 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication-policies.html#types-of-replication-policies["複寫原則"^] 您想要使用的。
 .. 選擇一次性複本或重複複複複寫排程。
-.. 如果您想要讓偏移報告包含SnapMirror關係的複寫健全狀況、以及延遲時間、狀態和上次傳輸時間、請啟用複寫健全狀況狀態監控。 link:task-check-template-compliance.html#replication-health-details-in-the-drift-report["請參閱偏移報告中的內容"]。
+.. 如果您想要讓偏移報告包含SnapMirror關係的複寫健全狀況、以及延遲時間、狀態和上次傳輸時間、請啟用複寫健全狀況狀態監控。 link:task-check-template-compliance.html#bluexp-replication-health-details-in-the-drift-report["請參閱偏移報告中的內容"]。
 .. 選取是否要設定傳輸率限制、然後輸入資料傳輸的最大傳輸率（以每秒KB為單位）。您可以輸入固定值、也可以提供最小值和最大值、讓儲存設備管理員在該範圍內選取一個值。
 
 
