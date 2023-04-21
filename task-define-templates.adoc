@@ -28,7 +28,7 @@ summary: 選取NetApp提供的一或多個「行動」、然後快速建立應�
 
 
 [role="quick-margin-list"]
-* 如果您計畫將雲端服務「行動」新增至範本、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^]，確保服務在您的環境中處於活動狀態並獲得許可。
+* 如果您計畫將雲端服務「行動」新增至範本、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 啟動應用程式範本服務
@@ -46,12 +46,12 @@ summary: 選取NetApp提供的一或多個「行動」、然後快速建立應�
 請閱讀下列要求、確認您擁有支援的組態。
 
 * 如果您還沒有連接器、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["瞭解如何建立連接器"^] 適用於AWS、Azure和GCP。
-* 建立Cloud Volumes ONTAP 一個功能不全的範本時、請務必Cloud Volumes ONTAP 為使用者提供一個功能不全的工作環境。瞭解如何在中啟動Cloud Volumes ONTAP 一套功能完善的系統 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["GCP"^]。
+* 建立Cloud Volumes ONTAP 一個功能不全的範本時、請務必Cloud Volumes ONTAP 為使用者提供一個功能不全的工作環境。瞭解如何在中啟動Cloud Volumes ONTAP 一套功能完善的系統 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["AWS"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Azure"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["GCP"^]。
 * 建立內部部署ONTAP 的Sfor Volume範本時、請務必為ONTAP 使用者提供內部部署的可視環境。瞭解如何操作 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["探索內部部署ONTAP 的解決方案"^] 在BlueXP中。
 * 建立Azure NetApp Files 一個功能不全的範本時、請務必為Azure NetApp Files 使用者提供一個功能不全的工作環境。瞭解如何操作 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["打造Azure NetApp Files 一個不一樣的工作環境"^] 在BlueXP中。
-* 如果您打算使用Cloud Backup在範本中備份磁碟區、請確定您的環境已啟動Cloud Backup。
-* 如果您打算使用Cloud Data Sense掃描範本中的磁碟區、請確定您的環境已啟動Cloud Data Sense。
-* 如果您計畫在範本中啟用複寫、且範本用於內部部署ONTAP 的SnapMirror Volume、ONTAP 則該叢集必須具有作用中的SnapMirror授權。
+* 如果您打算使用 BlueXP 備份與還原來備份範本中的磁碟區、請確定您的環境已啟動 BlueXP 備份與還原。
+* 如果您打算使用 BlueXP 分類來掃描範本中的磁碟區、請確定您的環境已啟動 BlueXP 分類。
+* 如果您計畫在範本中啟用 BlueXP 複寫、且範本是針對內部部署 ONTAP Volume 、則 ONTAP 叢集必須擁有有效的 SnapMirror 授權。
 
 
 
@@ -72,7 +72,7 @@ summary: 選取NetApp提供的一或多個「行動」、然後快速建立應�
 +
 建立AWS環境的磁碟區、設定100 GB的儲存空間、將Snapshot原則設為「預設」、並啟用儲存效率。
 
-* 啟用雲端備份
+* 啟用 BlueXP 備份與還原
 +
 建立每天30次、每週13次和每月3次的備份（使用_3個月Retention _原則）。
 
@@ -156,13 +156,13 @@ image:screenshot_create_template_define_action_cvo.png["螢幕快照顯示您需
 +
 如果範本值已正確完成、「Create Volume in Cloud Volumes ONTAP the報價」（建立Volume in the報價）方塊中會新增綠色勾號。
 
-. 按一下「在Volume上啟用雲端備份」方塊、隨即顯示「在Volume Action Definition_上啟用雲端備份」對話方塊、以便您填寫Cloud Backup詳細資料。
+. 按一下 * 啟用 Volume 上的雲端備份 * 方塊、隨即顯示 _ 啟用 Volume 上的雲端備份動作定義 _ 對話方塊、以便您填寫 BlueXP 備份與還原詳細資料。
 +
 image:screenshot_create_template_add_action.png["快照顯示可新增至所建立Volume的其他動作。"]
 
 . 選取* 3個月保留*備份原則、以建立30個每日、13個週和3個月的備份。
 . 在「工作環境」和「Volume Name（Volume名稱）」欄位下方、有三個選項可用來指出哪些磁碟區已啟用備份。請參閱 link:reference-template-building-blocks.html#pass-values-between-template-actions["如何填寫這些欄位"]。
-. 按一下「*套用*」、雲端備份對話方塊即會儲存。
+. 按一下 * 套用 * 、即可儲存 BlueXP 備份與還原對話方塊。
 . 在左上方輸入資料庫*的範本名稱* CVO Volume（例如）。
 . 按一下*「設定與飄移*」以提供更詳細的說明、以便將此範本與其他類似的範本區分開來、以便啟用整體範本的「飄移」功能、然後按一下*「套用*」。
 +
@@ -282,7 +282,7 @@ image:screenshot_create_template_define_action_anf.png["螢幕快照顯示您需
 
 === 建立內部部署ONTAP 的範本
 
-請參閱 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-provisioning-ontap.html#creating-volumes-for-ontap-clusters["如何配置內部部署ONTAP 的功能"^] 如需所有必要參數的詳細資訊、請參閱內部部署ONTAP 的解決方案資料範本。
+請參閱 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html#create-volumes["如何配置內部部署ONTAP 的功能"^] 如需所有必要參數的詳細資訊、請參閱內部部署ONTAP 的解決方案資料範本。
 
 .步驟
 . 選擇*健全狀況>補救*、按一下*範本*索引標籤、然後按一下*新增範本*。
@@ -433,7 +433,7 @@ image:screenshot_create_template_cvo_env_aws1.png["螢幕快照會顯示您Cloud
 
 | 標記 | AWS 標籤是 AWS 資源的中繼資料。BlueXP會將標記新增Cloud Volumes ONTAP 至該執行個體、以及與該執行個體相關聯的每個AWS資源。如需標記的相關資訊、請參閱 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html["AWS 文件：標記 Amazon EC2 資源"^]。 
 |===
-. *位置與連線*：輸入您在中記錄的網路資訊 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-planning-your-config.html#aws-network-information-worksheet["AWS工作表"^]。這包括AWS區域、VPC、子網路和安全性群組。
+. *位置與連線*：輸入您在中記錄的網路資訊 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-planning-your-config.html#collect-networking-information["AWS工作表"^]。這包括AWS區域、VPC、子網路和安全性群組。
 +
 如果您有 AWS Outpost 、 Cloud Volumes ONTAP 您可以選擇 Outpost VPC 、在該 Outpost 中部署單一節點的一套系統。體驗與 AWS 中的任何其他 VPC 相同。
 
@@ -447,7 +447,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-
 
 . *充電方法*：指定您要搭配此系統使用的充電選項。
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["瞭解這些充電方法"^]。
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-set-up-licensing-aws.html["瞭解這些充電方法"^]。
 
 . * NetApp支援網站帳戶*：選擇NetApp支援網站帳戶。
 . *預先設定的套件*：選取四個預先設定的套件之一、以決定在工作環境中建立磁碟區的數個因素。
@@ -477,13 +477,13 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 使用「尋找現有資源」動作、您可以找到特定的工作環境、或是提供各種篩選條件來尋找現有的磁碟區、以便將搜尋範圍縮小到您感興趣的資源。找到正確的資源之後、您可以將磁碟區新增至工作環境、或在產生的磁碟區上啟用雲端服務。
 
 
-NOTE: 現在您可以在Cloud Volumes ONTAP 內部部署ONTAP 的地方找到各種版本的資料、包括：功能性的、功能性的、功能性的、功能性的、功能性的等等Azure NetApp Files 。此外、您也可以在Cloud Volumes ONTAP 內部部署ONTAP 的支援資料中啟用Cloud Backup。稍後將提供額外的資源和服務。
+NOTE: 現在您可以在Cloud Volumes ONTAP 內部部署ONTAP 的地方找到各種版本的資料、包括：功能性的、功能性的、功能性的、功能性的、功能性的等等Azure NetApp Files 。您也可以在 Cloud Volumes ONTAP 和內部部署 ONTAP 磁碟區上啟用 BlueXP 備份與還原。稍後將提供額外的資源和服務。
 
 
 
 === 尋找現有磁碟區並啟動雲端服務
 
-目前的「尋找現有資源」行動功能可讓您在Cloud Volumes ONTAP 目前ONTAP 未啟用Cloud Backup或Cloud Data Sense的內部部署環境中、找到有關的各種資料。當您在特定磁碟區上啟用Cloud Backup時、此動作也會將您設定為該工作環境預設原則的備份原則設定為、因此這些工作環境中未來的所有磁碟區都可以使用相同的備份原則。
+目前的「尋找現有資源」行動功能可讓您在 Cloud Volumes ONTAP 和內部部署的 ONTAP 工作環境中尋找目前未啟用 BlueXP 備份與還原或 BlueXP 分類的磁碟區。當您在特定磁碟區上啟用 BlueXP 備份與還原時、此動作也會將您設定的備份原則設為該工作環境的預設原則、因此這些工作環境中未來的所有磁碟區都可以使用相同的備份原則。
 
 .步驟
 . 選擇*健全狀況>補救*、按一下*範本*索引標籤、然後按一下*新增範本*。
@@ -513,7 +513,7 @@ image:screenshot_define_find_resource_action1.png["顯示空白的「尋找現�
 這是此動作唯一需要的項目。您現在可以按一下*繼續*、就會收到Cloud Volumes ONTAP 環境中所有版本的所有冊表。
 
 +
-建議您填寫幾個篩選條件、以減少您要套用Cloud Backup行動的結果數量（本例為Volume）。
+建議您填寫幾個篩選條件、以減少套用 BlueXP 備份與還原動作的結果數量（本案例為 Volume ）。
 
 . 在_context_區域中、您可以選取特定的工作環境、以及該工作環境的其他詳細資料。
 +
@@ -550,7 +550,7 @@ image:screenshot_define_find_resource_search_criteria.png["快照顯示您為「
 「在Volume上啟用雲端備份」動作會新增至視窗。
 
 +
-image:screenshot_template_add_backup_action.png["快照顯示將Cloud Backup動作新增至範本的步驟。"]
+image:screenshot_template_add_backup_action.png["螢幕擷取畫面顯示將 BlueXP 備份與還原動作新增至範本的步驟。"]
 
 . 現在您可以定義中所述的備份準則 <<新增備份功能至磁碟區,新增備份功能至磁碟區>> 如此一來、範本就會將正確的備份原則套用至您從「尋找現有資源」動作中選取的磁碟區。
 . 按一下「*套用*」以儲存您對備份動作所做的自訂作業、然後在完成時按一下「*儲存範本*」。
@@ -611,13 +611,13 @@ image:screenshot_define_find_work_env.png["顯示空白的「尋找現有資源�
 
 == 使用範本啟用服務的範例
 
-服務範本可讓您在新建立的磁碟區上啟動Cloud Backup、Cloud Data Sense或Replication（SnapMirror）服務。
+服務範本可讓您在新建立的磁碟區上啟動 BlueXP 備份與還原、 BlueXP 分類或 BlueXP 複寫（ SnapMirror ）服務。
 
 
 
 === 新增備份功能至磁碟區
 
-建立Volume範本時、您可以新增想要定期使用建立Volume備份的範本 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^] 服務：
+建立Volume範本時、您可以新增想要定期使用建立Volume備份的範本 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 服務：
 
 
 TIP: 此動作不適用於Azure NetApp Files 不適用的功能。
@@ -634,9 +634,9 @@ image:screenshot_template_backup.png["此頁面的快照可為您的磁碟區啟
 
 
 
-=== 新增Data Sense功能至磁碟區
+=== 將 BlueXP 分類功能新增至磁碟區
 
-建立Volume範本時、您可以新增範本、以便使用掃描Volume以取得法規遵循與分類 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^] 服務：
+建立Volume範本時、您可以新增範本、以便使用掃描Volume以取得法規遵循與分類 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^] 服務：
 
 image:screenshot_template_data_sense.png["此頁面的快照可為您的磁碟區啟用掃描功能。"]
 
@@ -649,25 +649,25 @@ image:screenshot_template_data_sense.png["此頁面的快照可為您的磁碟�
 
 
 
-=== 新增複寫功能至磁碟區
+=== 將 BlueXP 複寫功能新增至磁碟區
 
-建立Volume範本時、您可以使用將磁碟區中的資料複寫到其他磁碟區的範本中 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["複寫"^] 服務：您可以將資料複寫到Cloud Volumes ONTAP 一個不間斷叢集或內部ONTAP 的一個不間斷叢集。
+建立Volume範本時、您可以使用將磁碟區中的資料複寫到其他磁碟區的範本中 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^] 服務：您可以將資料複寫到Cloud Volumes ONTAP 一個不間斷叢集或內部ONTAP 的一個不間斷叢集。
 
 
 TIP: 此動作不適用於Azure NetApp Files 不適用的功能。
 
-複寫功能包含三個部分：選取來源磁碟區、選取目的地磁碟區、以及定義複寫設定。每一節的說明如下。
+BlueXP 複寫功能包含三個部分：選取來源磁碟區、選取目的地磁碟區、以及定義複寫設定。每一節的說明如下。
 
 . *來源詳細資料*：輸入您要複寫之來源磁碟區的詳細資料：
 +
-image:screenshot_template_replication_source.png["頁面的快照、用於定義複寫來源Volume位置。"]
+image:screenshot_template_replication_source.png["頁面的螢幕擷取畫面、用於定義 BlueXP 複寫來源磁碟區位置。"]
 
 +
 .. 根據預設、會針對工作環境、儲存VM和Volume填入前三個變數、表示您將複寫先前在此相同範本中建立的磁碟區。所以如果您想要這麼做、您就能輕鬆完成所有設定。
 +
 若要複寫不同的磁碟區、您可以手動輸入這些詳細資料。瞭解如何操作 link:reference-template-building-blocks.html#pass-values-between-template-actions["填寫內容欄位"] 表示不同的Volume。
 
-.. 複寫作業需要來源與目的地工作環境透過其叢集間生命週年來連線。輸入來源工作環境的叢集間LIF IP位址。
+.. BlueXP 複寫需要來源和目的地工作環境透過其叢集間的生命週年進行連線。輸入來源工作環境的叢集間LIF IP位址。
 +
 若要取得此資訊：按兩下工作環境、按一下功能表圖示、然後按一下資訊。
 
@@ -675,7 +675,7 @@ image:screenshot_template_replication_source.png["頁面的快照、用於定義
 
 . *目的地詳細資料*：輸入複寫作業所建立之目的地磁碟區的詳細資料：
 +
-image:screenshot_template_replication_dest.png["頁面的快照、用於定義複寫目的地Volume位置。"]
+image:screenshot_template_replication_dest.png["頁面的螢幕擷取畫面、用於定義 BlueXP 複寫目的地 Volume 位置。"]
 
 +
 .. 選取要建立磁碟區的工作環境。
@@ -683,14 +683,14 @@ image:screenshot_template_replication_dest.png["頁面的快照、用於定義�
 .. 將磁碟區複製到Cloud Volumes ONTAP 一個叢集（而非內部ONTAP 的叢集）時、您需要指定目的地供應商（AWS、Azure或GCP）。
 .. 將磁碟區複製到Cloud Volumes ONTAP 某個物件叢集時、您可以指定是否在目的地磁碟區上啟用磁碟區分層。
 .. 針對目的地Volume名稱、按一下欄位、然後選取5個選項之一。您可以選擇*任意文字*、讓管理員輸入任何名稱、或是指定Volume名稱必須有特定的字首或字尾、_包含_特定字元、或是遵循您輸入之規則運算式（regex）的規則。
-.. 複寫作業需要來源與目的地工作環境透過其叢集間生命週年來連線。輸入目的地工作環境的叢集間LIF IP位址。
+.. BlueXP 複寫需要來源和目的地工作環境透過其叢集間的生命週年進行連線。輸入目的地工作環境的叢集間LIF IP位址。
 .. 選取磁碟區所在的集合體。
 .. 將磁碟區複製到Cloud Volumes ONTAP 一個邊叢集（而非內部ONTAP 的邊叢集）時、您需要指定要用於新磁碟區的磁碟類型。
 
 
 . *複寫詳細資料*：輸入複寫作業類型和頻率的詳細資料：
 +
-image:screenshot_template_replication_policy.png["頁面快照、用於定義關係的複寫設定。"]
+image:screenshot_template_replication_policy.png["頁面的螢幕擷取畫面、用於定義關係的 BlueXP 複寫設定。"]
 
 +
 .. 選取 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication-policies.html#types-of-replication-policies["複寫原則"^] 您想要使用的。

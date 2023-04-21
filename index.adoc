@@ -2,10 +2,10 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: The AppTemplate service enables you to standardize resource creation for your BlueXP working environments. 
-summary: AppTemplate服務可讓您標準化BlueXP工作環境的資源建立。 
+lead: 'The BlueXP remediation service (AppTemplate) enables you to standardize resource creation for your BlueXP working environments.' 
+summary: BlueXP 補救服務（ AppTemplate ）可讓您將 BlueXP 工作環境的資源建立標準化。 
 ---
-= 應用程式範本文件
+= BlueXP 補救文件
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

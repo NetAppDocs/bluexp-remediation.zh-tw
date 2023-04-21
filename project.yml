@@ -1,6 +1,6 @@
 ---
 settings:
-  name: AppTemplate
+  name: BlueXP remediation
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,17 +11,17 @@ settings:
   langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: 應用程式範本文件
+  - title: BlueXP 補救文件
     url: "/index.html"
   - title: 版本資訊
     url: "/whats-new.html"
   - title: 開始使用
     entries:
-    - title: 深入瞭解AppTemplate
+    - title: 瞭解 BlueXP 補救措施
       url: "/concept-resource-templates.html"
     - title: 深入瞭解標記
       url: "/concept-tagging.html"
-  - title: 使用應用程式範本
+  - title: 使用 BlueXP 補救措施
     entries:
     - title: 使用範本來標準化資源建立
       entries:
@@ -51,7 +51,7 @@ homepage:
   tiles:
   - title: 開始使用
     links:
-    - title: 深入瞭解AppTemplate
+    - title: 瞭解 BlueXP 補救措施
       url: concept-resource-templates.html
     - title: 瞭解標記
       url: concept-tagging.html
@@ -67,7 +67,7 @@ homepage:
       url: task-define-templates.html#create-a-template-for-an-azure-netapp-files-volume
     - title: 內部部署ONTAP 的產品不只是功能
       url: task-define-templates.html#create-a-template-for-an-on-premises-ontap-volume
-    - title: 新增備份、資料感應或複寫功能至磁碟區
+    - title: 將備份、分類或複寫功能新增至磁碟區
       url: task-define-templates.html#examples-of-enabling-services-using-templates
   - title: 使用範本建立資源
     links:
@@ -86,11 +86,11 @@ homepage:
   - title: 部落格社群
     links:
     - title: NetApp社群
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
     - title: BlueXP部落格
-      url: https://cloud.netapp.com/blog
+      url: https://bluexp.netapp.com/blog
     - title: 雲端網路研討會
-      url: https://cloud.netapp.com/events
+      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: cloud-manager-family

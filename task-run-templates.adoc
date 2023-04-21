@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-run-templates.html 
 keywords: templates, resource templates, services templates, volume templates, working environment templates 
-summary: 選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您在磁碟區或現有磁碟區上啟動Cloud Backup、Cloud Data Sense和Replication（SnapMirror）。 
+summary: 選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動磁碟區或現有磁碟區上的 BlueXP 備份與還原、 BlueXP 分類及 BlueXP 複寫（ SnapMirror ）。 
 ---
 = 使用範本建立或修改資源
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 
 [role="lead"]
-選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^]、 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^]和 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["複寫（SnapMirror）"^] 在已建立的磁碟區或現有磁碟區上。
+選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]和 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^] 在已建立的磁碟區或現有磁碟區上。
 
 範本可讓您建立Cloud Volumes ONTAP 適用於內部Azure NetApp Files 部署ONTAP 的各種作業系統的各種資料。
 
@@ -30,7 +30,7 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 
 [role="quick-margin-list"]
-* 如果範本啟動磁碟區上的雲端服務、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^]，確保服務在您的環境中處於活動狀態並獲得許可。
+* 如果範本啟動磁碟區上的雲端服務、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 啟動應用程式範本服務
@@ -51,7 +51,7 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 * 建立Cloud Volumes ONTAP 一個SNetApp功能區時、請確保Cloud Volumes ONTAP 您擁有一個可供使用的功能不全的工作環境。
 * 建立內部部署ONTAP 的SNetApp時、請確保您擁有內部部署ONTAP 的可運作環境。
 * 建立Azure NetApp Files 一個SNetApp功能區時、請確保Azure NetApp Files 您擁有一個可供使用的功能不全的工作環境。
-* 如果範本啟動磁碟區上的雲端服務、例如  https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^]、 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^]或 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["複寫（SnapMirror）"^]，確保服務在您的環境中處於活動狀態並獲得許可。
+* 如果範本啟動磁碟區上的雲端服務、例如  https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]或 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
 
@@ -68,7 +68,7 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-create-volumes.html#create-a-volume-from-a-template["如何配置Cloud Volumes ONTAP 功能不均"^]
 * https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-create-volumes.html#create-volumes-from-templates["如何配置Azure NetApp Files 功能不均"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-provisioning-ontap.html#creating-volumes-from-templates["如何配置內部部署ONTAP 的功能"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html#create-volumes-from-templates["如何配置內部部署ONTAP 的功能"^]
 
 
 
@@ -155,7 +155,7 @@ image:screenshot_template_run_from_dashboard_we.png["螢幕快照顯示您從範
 
 == 選取並執行尋找現有資源的範本
 
-如果貴公司使用此功能建立了範本、您可以執行範本來尋找特定資源（例如磁碟區）、然後在這些資源上啟用雲端服務（例如Cloud Backup）。執行範本時、您可以稍微調整一下、以便只將雲端服務套用至適當的資源。
+如果貴公司已使用此功能建立範本、您可以執行範本來尋找特定資源（例如 Volume ）、然後在這些資源上啟用雲端服務（例如 BlueXP 備份與還原）。執行範本時、您可以稍微調整一下、以便只將雲端服務套用至適當的資源。
 
 .步驟
 . 選擇*健全狀況>補救*、然後按一下*範本*索引標籤。
@@ -173,13 +173,13 @@ image:screenshot_template_run_from_dashboard4.png["顯示如何從範本儀表�
 +
 image:screenshot_template_find_search_results.png["快照顯示從「尋找資源」搜尋條件傳回的磁碟區。"]
 
-. 如果結果符合您的預期、請使用範本_在Volume上啟用雲端備份_一部分的條件、為您想要啟用雲端備份的每個磁碟區選取核取方塊、然後按一下*執行範本*。
+. 如果結果符合您的預期、請使用範本中 _Enable Cloud Backup on Volume_部分 的準則、針對您想要啟用 BlueXP 備份與還原的每個磁碟區選取核取方塊、然後按一下 * 執行範本 * 。
 +
 如果結果與您預期的不一樣、請按一下 image:screenshot_edit_icon.gif["編輯鉛筆圖示"] 在_Search Criteria（搜尋條件）旁、進一步精簡搜尋。
 
 
 
 .結果
-範本將會執行、並在您從搜尋條件中檢查的每個磁碟區上啟用Cloud Backup。
+範本將會執行、並在您根據搜尋條件檢查的每個磁碟區上啟用 BlueXP 備份與還原。
 
 任何錯誤都會在_執行您的範本_頁面中叫出、您可以視需要解決問題。

@@ -57,18 +57,18 @@ image:screenshot_template_regex.png["使用regex定義Volume名稱允許值的�
 
 == 在範本動作之間傳遞值
 
-範本能夠使用先前動作的資訊、在未來的行動中填入欄位。例如、當定義將啟用Cloud Backup功能的磁碟區名稱時、您可以指示備份動作使用儲存設備管理員在「Create Cloud Volumes ONTAP 」（建立）動作中輸入的磁碟區名稱值。
+範本能夠使用先前動作的資訊、在未來的行動中填入欄位。例如、當定義將啟用 BlueXP 備份與還原功能的磁碟區名稱時、您可以指示備份動作使用儲存管理員在「建立 Cloud Volumes ONTAP 」動作中輸入的磁碟區名稱值。
 
-AppTemplate服務可使用三種類型的資訊：
+BlueXP 補救服務可以使用三種類型的資訊：
 
 * 輸入值：這是儲存設備管理員在先前範本動作的欄位中輸入的實際值。
 * 輸出值：這是從先前的範本動作建立資源之後、BlueXP所產生的值。
 * 輸入您自己的值-這是您輸入的值、無法從範本中的先前動作存取。
 
 
-例如、若要在磁碟區上啟用法規遵循掃描、Cloud Data Sense服務需要儲存設備管理員輸入的「Volume name」（磁碟區名稱）（輸入值）、以及BlueXP建立磁碟區時產生的「Volume uuid」（輸出值）。
+例如、為了在磁碟區上啟用法規遵循掃描、 BlueXP 分類服務需要儲存管理員輸入的「 Volume name 」（磁碟區名稱）（輸入值）、以及 BlueXP 在建立磁碟區時產生的「 Volume uuid 」（磁碟區 uuid ）（輸出值）。
 
-下圖顯示如何在範本的「Cloud Data Sense Action（雲端資料感測行動）」區段中輸入此資訊。
+下圖顯示如何在範本的 BlueXP 分類動作區段中輸入此資訊。
 
 image:screenshot_template_variable_input_output.png["顯示如何使用在先前動作中輸入的值、在其他動作中填入欄位的圖例。"]
 
@@ -80,9 +80,9 @@ image:screenshot_template_variable_input_output.png["顯示如何使用在先前
 
 image:screenshot_template_select_condition.png["如何在範本中新增條件式陳述式的快照。"]
 
-例如、您可能有一項準則、指出如果某個磁碟區的容量大於50 GB、則必須在該磁碟區上啟用Cloud Backup。如果磁碟區容量較小、則不會啟用Cloud Backup。您可以在範本中實作此功能、如下所示。
+例如、您可能有一項準則、指出如果某個磁碟區的容量大於 50 GB 、則必須在該磁碟區上啟用 BlueXP 備份與還原。如果磁碟區容量較小、則不會啟用 BlueXP 備份與還原。您可以在範本中實作此功能、如下所示。
 
-image:screenshot_template_condition_example.png["快照顯示範本中的條件如何用於有條件地啟用Cloud Backup。"]
+image:screenshot_template_condition_example.png["顯示範本如何使用條件以有條件啟用 BlueXP 備份與還原的螢幕擷取畫面。"]
 
 條件包含兩個部分：
 

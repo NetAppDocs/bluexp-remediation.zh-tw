@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-resource-templates.html 
 keywords: templates, overview, conceptual, resource templates, application templates, volume templates 
-summary: AppTemplate服務可讓您在BlueXP的工作環境中、標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。 
+summary: BlueXP 補救服務可讓您在 BlueXP 的工作環境中標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的磁碟區開啟特定服務、例如 BlueXP 備份與還原。 
 ---
-= 深入瞭解AppTemplate
+= 瞭解 BlueXP 補救措施
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: AppTemplate服務可讓您在BlueXP的工作環境中、標準化資源
 
 
 [role="lead"]
-AppTemplate服務可讓您在BlueXP（前身為Cloud Manager）的工作環境中、標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的Volume開啟特定服務、例如Cloud Backup。
+BlueXP 補救服務可讓您在 BlueXP 的工作環境中標準化資源建立。例如、您可以在稍後儲存管理員使用範本建立磁碟區時、在「Volume範本」中硬式編碼必要的參數。這可能包括所需的磁碟類型、大小、傳輸協定、快照原則、雲端供應商、 以及更多資訊。您也可以為每個建立的磁碟區開啟特定服務、例如 BlueXP 備份與還原。
 
 範本可讓儲存管理員輕鬆建立專為每個已部署應用程式的工作負載需求最佳化的磁碟區、例如資料庫、電子郵件或串流服務。而且儲存架構設計師知道每個磁碟區都是針對每個應用程式最佳化建立、因此能更輕鬆地完成工作。
 
@@ -22,10 +22,10 @@ AppTemplate服務可讓您在BlueXP（前身為Cloud Manager）的工作環境�
 
 == 功能
 
-AppTemplate提供下列功能與優點：
+BlueXP 補救措施提供下列功能與優點：
 
 * 自動化並改善基礎架構的設計與開發
-* 提供單一位置以啟動不同的NetApp雲端服務、例如Cloud Backup和Cloud Data Sense
+* 提供單一位置來啟動不同的 NetApp 雲端服務、例如 BlueXP 備份與還原、以及 BlueXP 分類
 * 識別已變更且不再符合範本的資源（使用「偏移」功能）
 +
 此時、您需要手動調整資源、使其符合範本的要求。 link:task-check-template-compliance.html["深入瞭解飄移"]。
@@ -49,20 +49,20 @@ AppTemplate提供下列功能與優點：
 
 *服務行動：*
 
-* 啟動 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份"^] 在Volume上（Azure NetApp Files 不適用於
-* 啟動 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["雲端資料感測"^] 在Volume上
-* 啟動 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["複寫"^] 在Volume上（Azure NetApp Files 不適用於
+* 啟動 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 在Volume上（Azure NetApp Files 不適用於
+* 啟動 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^] 在Volume上
+* 啟動 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^] 在Volume上（Azure NetApp Files 不適用於
 
 
-例如、您可以建立建立Cloud Volumes ONTAP 一個範本來建立一個功能區。或是建立Cloud Volumes ONTAP 一個「還原」Volume、然後在該Volume上啟用「雲端備份」。或是建立Cloud Volumes ONTAP 一個SURFO Volume、然後在該Volume上啟用Cloud Backup _and Cloud Data感應。
+例如、您可以建立建立Cloud Volumes ONTAP 一個範本來建立一個功能區。或是建立 Cloud Volumes ONTAP 磁碟區、然後在該磁碟區上啟用 BlueXP 備份與還原。或是建立 Cloud Volumes ONTAP 磁碟區、然後在該磁碟區上啟用 BlueXP 備份與還原 _BlueXP 分類。
 
 NetApp會隨著時間增加更多行動。
 
 
 
-== 應用程式範本的運作方式
+== BlueXP 補救的運作方式
 
-應用程式範本服務由3個部分組成。執行範本後、可用的範本「動作」、自訂的應用程式範本、以及已部署的資源。下圖顯示每個元件之間的關係：
+BlueXP 補救服務由 3 個部分組成。執行範本後、可用的範本「動作」、自訂的應用程式範本、以及已部署的資源。下圖顯示每個元件之間的關係：
 
 image:diagram_template_flow1.png["與建立及使用應用程式範本有關的不同使用者圖表。"]
 
@@ -87,15 +87,15 @@ image:diagram_template_flow1.png["與建立及使用應用程式範本有關的�
 
 == 定價與授權
 
-應用程式範本功能不需要授權、所有的BlueXP使用者都可以免費使用。
+BlueXP 補救功能無需授權、所有 BlueXP 使用者均可免費使用。
 
 
-NOTE: 範本可讓您將雲端服務套用至已建立的資源、例如在每個Volume上啟用Cloud Backup。在這種情況下、使用備份服務和備份檔案所使用的物件儲存空間都會有成本。
+NOTE: 範本可讓您將雲端服務套用至建立的資源、例如在每個磁碟區上啟用 BlueXP 備份與還原。在這種情況下、使用備份服務和備份檔案所使用的物件儲存空間都會有成本。
 
 
 
 == 限制
 
-* 任何Gov Cloud區域或沒有網際網路存取的站台均不支援AppTemplate服務。
+* 在任何 Gov Cloud 地區或沒有網際網路存取的站台中、均不支援 BlueXP 補救服務。
 * 您無法使用範本在Cloud Volumes ONTAP 現有的Aggregate上建立一個流通量。新的磁碟區會建立在新的Aggregate中。
 
