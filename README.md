@@ -1,1 +1,1 @@
-# cloud-manager-app-template
+# bluexp-remediation

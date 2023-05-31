@@ -28,7 +28,7 @@ summary: 選取NetApp提供的一或多個「行動」、然後快速建立應�
 
 
 [role="quick-margin-list"]
-* 如果您計畫將雲端服務「行動」新增至範本、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]，確保服務在您的環境中處於活動狀態並獲得許可。
+* 如果您計畫將雲端服務「行動」新增至範本、例如 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 或 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 啟動應用程式範本服務
@@ -45,10 +45,10 @@ summary: 選取NetApp提供的一或多個「行動」、然後快速建立應�
 
 請閱讀下列要求、確認您擁有支援的組態。
 
-* 如果您還沒有連接器、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["瞭解如何建立連接器"^] 適用於AWS、Azure和GCP。
-* 建立Cloud Volumes ONTAP 一個功能不全的範本時、請務必Cloud Volumes ONTAP 為使用者提供一個功能不全的工作環境。瞭解如何在中啟動Cloud Volumes ONTAP 一套功能完善的系統 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["AWS"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Azure"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["GCP"^]。
-* 建立內部部署ONTAP 的Sfor Volume範本時、請務必為ONTAP 使用者提供內部部署的可視環境。瞭解如何操作 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["探索內部部署ONTAP 的解決方案"^] 在BlueXP中。
-* 建立Azure NetApp Files 一個功能不全的範本時、請務必為Azure NetApp Files 使用者提供一個功能不全的工作環境。瞭解如何操作 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["打造Azure NetApp Files 一個不一樣的工作環境"^] 在BlueXP中。
+* 如果您還沒有連接器、 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["瞭解如何建立連接器"^] 適用於AWS、Azure和GCP。
+* 建立Cloud Volumes ONTAP 一個功能不全的範本時、請務必Cloud Volumes ONTAP 為使用者提供一個功能不全的工作環境。瞭解如何在中啟動Cloud Volumes ONTAP 一套功能完善的系統 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-aws.html["AWS"^]、 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-azure.html["Azure"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-gcp.html["GCP"^]。
+* 建立內部部署ONTAP 的Sfor Volume範本時、請務必為ONTAP 使用者提供內部部署的可視環境。瞭解如何操作 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["探索內部部署ONTAP 的解決方案"^] 在BlueXP中。
+* 建立Azure NetApp Files 一個功能不全的範本時、請務必為Azure NetApp Files 使用者提供一個功能不全的工作環境。瞭解如何操作 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["打造Azure NetApp Files 一個不一樣的工作環境"^] 在BlueXP中。
 * 如果您打算使用 BlueXP 備份與還原來備份範本中的磁碟區、請確定您的環境已啟動 BlueXP 備份與還原。
 * 如果您打算使用 BlueXP 分類來掃描範本中的磁碟區、請確定您的環境已啟動 BlueXP 分類。
 * 如果您計畫在範本中啟用 BlueXP 複寫、且範本是針對內部部署 ONTAP Volume 、則 ONTAP 叢集必須擁有有效的 SnapMirror 授權。
@@ -64,7 +64,7 @@ summary: 選取NetApp提供的一或多個「行動」、然後快速建立應�
 
 === 建立Cloud Volumes ONTAP 一個範本、以供作一份不全版的範本
 
-請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-create-volumes.html["如何配置Cloud Volumes ONTAP 功能不均"^] 如需Cloud Volumes ONTAP 有關您需要在《關於我們的資料與資料的資料、請參閱《關於我們的資料與資料的資料、
+請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-create-volumes.html["如何配置Cloud Volumes ONTAP 功能不均"^] 如需Cloud Volumes ONTAP 有關您需要在《關於我們的資料與資料的資料、請參閱《關於我們的資料與資料的資料、
 
 在此範例中、我們將建立名為「資料庫的CVO Volume」的範本、並包含下列2項動作：
 
@@ -150,7 +150,7 @@ image:screenshot_create_template_define_action_cvo.png["螢幕快照顯示您需
 |===
 . *分層：*選擇您要套用至磁碟區的分層原則、或是如果您不想將冷資料從這個磁碟區分層至物件儲存設備、請將此原則設為「無」。
 +
-請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html#volume-tiering-policies["Volume分層原則"^] 如需概觀、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html["將非作用中資料分層至物件儲存設備"^] 確保您的環境已設定為分層。
+請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html#volume-tiering-policies["Volume分層原則"^] 如需概觀、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html["將非作用中資料分層至物件儲存設備"^] 確保您的環境已設定為分層。
 
 . 定義此動作所需的參數後、請按一下「*套用*」。
 +
@@ -182,7 +182,7 @@ image:screenshot_create_template_add_action.png["快照顯示可新增至所建�
 
 建立Azure NetApp Files 一套範本以建立Cloud Volumes ONTAP 一套範本的方式來建立一個適用於整個過程的範本。
 
-請參閱 https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-create-volumes.html#create-volumes["如何配置Azure NetApp Files 功能不均"^] 如需在ANF Volume範本中完成所有必要參數的詳細資料、
+請參閱 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html#create-volumes["如何配置Azure NetApp Files 功能不均"^] 如需在ANF Volume範本中完成所有必要參數的詳細資料、
 
 .步驟
 . 選擇*健全狀況>補救*、按一下*範本*索引標籤、然後按一下*新增範本*。
@@ -282,7 +282,7 @@ image:screenshot_create_template_define_action_anf.png["螢幕快照顯示您需
 
 === 建立內部部署ONTAP 的範本
 
-請參閱 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html#create-volumes["如何配置內部部署ONTAP 的功能"^] 如需所有必要參數的詳細資訊、請參閱內部部署ONTAP 的解決方案資料範本。
+請參閱 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html#create-volumes["如何配置內部部署ONTAP 的功能"^] 如需所有必要參數的詳細資訊、請參閱內部部署ONTAP 的解決方案資料範本。
 
 .步驟
 . 選擇*健全狀況>補救*、按一下*範本*索引標籤、然後按一下*新增範本*。
@@ -390,7 +390,7 @@ image:screenshot_create_template_define_action_onprem.png["螢幕快照顯示您
 
 
 ====
-請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html#launching-a-single-node-cloud-volumes-ontap-system-in-aws["如何在Cloud Volumes ONTAP AWS中啟動單一節點的不全功能系統"^] 或是 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html#launching-a-cloud-volumes-ontap-ha-pair-in-aws["AWS中的HHA配對Cloud Volumes ONTAP"^] 必須具備的先決條件、以及您需要在此範本中定義的所有參數詳細資料。
+請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html#launching-a-single-node-cloud-volumes-ontap-system-in-aws["如何在Cloud Volumes ONTAP AWS中啟動單一節點的不全功能系統"^] 或是 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html#launching-a-cloud-volumes-ontap-ha-pair-in-aws["AWS中的HHA配對Cloud Volumes ONTAP"^] 必須具備的先決條件、以及您需要在此範本中定義的所有參數詳細資料。
 
 .步驟
 . 選擇*健全狀況>補救*、按一下*範本*索引標籤、然後按一下*新增範本*。
@@ -433,7 +433,7 @@ image:screenshot_create_template_cvo_env_aws1.png["螢幕快照會顯示您Cloud
 
 | 標記 | AWS 標籤是 AWS 資源的中繼資料。BlueXP會將標記新增Cloud Volumes ONTAP 至該執行個體、以及與該執行個體相關聯的每個AWS資源。如需標記的相關資訊、請參閱 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html["AWS 文件：標記 Amazon EC2 資源"^]。 
 |===
-. *位置與連線*：輸入您在中記錄的網路資訊 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-planning-your-config.html#collect-networking-information["AWS工作表"^]。這包括AWS區域、VPC、子網路和安全性群組。
+. *位置與連線*：輸入您在中記錄的網路資訊 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-planning-your-config.html#collect-networking-information["AWS工作表"^]。這包括AWS區域、VPC、子網路和安全性群組。
 +
 如果您有 AWS Outpost 、 Cloud Volumes ONTAP 您可以選擇 Outpost VPC 、在該 Outpost 中部署單一節點的一套系統。體驗與 AWS 中的任何其他 VPC 相同。
 
@@ -443,11 +443,11 @@ image:screenshot_create_template_cvo_env_aws1.png["螢幕快照會顯示您Cloud
 對於 AWS 管理的加密、您可以從帳戶或其他 AWS 帳戶中選擇不同的客戶主金鑰（ CMK ）。
 
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-kms.html["瞭解如何設定 AWS KMS for Cloud Volumes ONTAP the 功能"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-kms.html["瞭解如何設定 AWS KMS for Cloud Volumes ONTAP the 功能"^]。
 
 . *充電方法*：指定您要搭配此系統使用的充電選項。
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-set-up-licensing-aws.html["瞭解這些充電方法"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-set-up-licensing-aws.html["瞭解這些充電方法"^]。
 
 . * NetApp支援網站帳戶*：選擇NetApp支援網站帳戶。
 . *預先設定的套件*：選取四個預先設定的套件之一、以決定在工作環境中建立磁碟區的數個因素。
@@ -617,7 +617,7 @@ image:screenshot_define_find_work_env.png["顯示空白的「尋找現有資源�
 
 === 新增備份功能至磁碟區
 
-建立Volume範本時、您可以新增想要定期使用建立Volume備份的範本 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 服務：
+建立Volume範本時、您可以新增想要定期使用建立Volume備份的範本 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 服務：
 
 
 TIP: 此動作不適用於Azure NetApp Files 不適用的功能。
@@ -636,7 +636,7 @@ image:screenshot_template_backup.png["此頁面的快照可為您的磁碟區啟
 
 === 將 BlueXP 分類功能新增至磁碟區
 
-建立Volume範本時、您可以新增範本、以便使用掃描Volume以取得法規遵循與分類 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^] 服務：
+建立Volume範本時、您可以新增範本、以便使用掃描Volume以取得法規遵循與分類 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"^] 服務：
 
 image:screenshot_template_data_sense.png["此頁面的快照可為您的磁碟區啟用掃描功能。"]
 
@@ -651,7 +651,7 @@ image:screenshot_template_data_sense.png["此頁面的快照可為您的磁碟�
 
 === 將 BlueXP 複寫功能新增至磁碟區
 
-建立Volume範本時、您可以使用將磁碟區中的資料複寫到其他磁碟區的範本中 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^] 服務：您可以將資料複寫到Cloud Volumes ONTAP 一個不間斷叢集或內部ONTAP 的一個不間斷叢集。
+建立Volume範本時、您可以使用將磁碟區中的資料複寫到其他磁碟區的範本中 https://docs.netapp.com/us-en/bluexp-replication/concept-replication.html["BlueXP 複寫"^] 服務：您可以將資料複寫到Cloud Volumes ONTAP 一個不間斷叢集或內部ONTAP 的一個不間斷叢集。
 
 
 TIP: 此動作不適用於Azure NetApp Files 不適用的功能。
@@ -693,7 +693,7 @@ image:screenshot_template_replication_dest.png["頁面的螢幕擷取畫面、�
 image:screenshot_template_replication_policy.png["頁面的螢幕擷取畫面、用於定義關係的 BlueXP 複寫設定。"]
 
 +
-.. 選取 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication-policies.html#types-of-replication-policies["複寫原則"^] 您想要使用的。
+.. 選取 https://docs.netapp.com/us-en/bluexp-replication/concept-replication-policies.html#types-of-replication-policies["複寫原則"^] 您想要使用的。
 .. 選擇一次性複本或重複複複複寫排程。
 .. 如果您想要讓偏移報告包含SnapMirror關係的複寫健全狀況、以及延遲時間、狀態和上次傳輸時間、請啟用複寫健全狀況狀態監控。 link:task-check-template-compliance.html#bluexp-replication-health-details-in-the-drift-report["請參閱偏移報告中的內容"]。
 .. 選取是否要設定傳輸率限制、然後輸入資料傳輸的最大傳輸率（以每秒KB為單位）。您可以輸入固定值、也可以提供最小值和最大值、讓儲存設備管理員在該範圍內選取一個值。

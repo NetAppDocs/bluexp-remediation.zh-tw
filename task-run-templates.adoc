@@ -14,7 +14,7 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 
 [role="lead"]
-選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]和 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^] 在已建立的磁碟區或現有磁碟區上。
+選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"^]和 https://docs.netapp.com/us-en/bluexp-replication/concept-replication.html["BlueXP 複寫"^] 在已建立的磁碟區或現有磁碟區上。
 
 範本可讓您建立Cloud Volumes ONTAP 適用於內部Azure NetApp Files 部署ONTAP 的各種作業系統的各種資料。
 
@@ -30,7 +30,7 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 
 [role="quick-margin-list"]
-* 如果範本啟動磁碟區上的雲端服務、例如 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 或 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]，確保服務在您的環境中處於活動狀態並獲得許可。
+* 如果範本啟動磁碟區上的雲端服務、例如 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 或 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 啟動應用程式範本服務
@@ -47,11 +47,11 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 請閱讀下列要求、確認您擁有支援的組態。
 
-* 如果您還沒有連接器、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["瞭解如何建立連接器"^] 適用於AWS、Azure和GCP。
+* 如果您還沒有連接器、 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["瞭解如何建立連接器"^] 適用於AWS、Azure和GCP。
 * 建立Cloud Volumes ONTAP 一個SNetApp功能區時、請確保Cloud Volumes ONTAP 您擁有一個可供使用的功能不全的工作環境。
 * 建立內部部署ONTAP 的SNetApp時、請確保您擁有內部部署ONTAP 的可運作環境。
 * 建立Azure NetApp Files 一個SNetApp功能區時、請確保Azure NetApp Files 您擁有一個可供使用的功能不全的工作環境。
-* 如果範本啟動磁碟區上的雲端服務、例如  https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^]或 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^]，確保服務在您的環境中處於活動狀態並獲得許可。
+* 如果範本啟動磁碟區上的雲端服務、例如  https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"^]或 https://docs.netapp.com/us-en/bluexp-replication/concept-replication.html["BlueXP 複寫"^]，確保服務在您的環境中處於活動狀態並獲得許可。
 
 
 
@@ -66,9 +66,9 @@ summary: 選取貴組織所建置的其中一個應用程式範本、以建立�
 
 無論您選擇何種方法、您必須定義的所需Volume參數詳細資料都可在下列各節中找到：
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-create-volumes.html#create-a-volume-from-a-template["如何配置Cloud Volumes ONTAP 功能不均"^]
-* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-create-volumes.html#create-volumes-from-templates["如何配置Azure NetApp Files 功能不均"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html#create-volumes-from-templates["如何配置內部部署ONTAP 的功能"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-create-volumes.html#create-a-volume-from-a-template["如何配置Cloud Volumes ONTAP 功能不均"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html#create-volumes-from-templates["如何配置Azure NetApp Files 功能不均"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html#create-volumes-from-templates["如何配置內部部署ONTAP 的功能"^]
 
 
 
@@ -131,7 +131,7 @@ image:screenshot_run_template_from_dashboard.png["螢幕快照顯示您從範本
 
 如果貴公司已建立此功能的範本、您可以從_範本儀表板_建立新的工作環境。
 
-如果您對建立工作環境所需的詳細資料有任何疑問、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]。
+如果您對建立工作環境所需的詳細資料有任何疑問、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]。
 
 .步驟
 . 選擇*健全狀況>補救*、然後按一下*範本*索引標籤。

@@ -49,9 +49,9 @@ BlueXP 補救措施提供下列功能與優點：
 
 *服務行動：*
 
-* 啟動 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 在Volume上（Azure NetApp Files 不適用於
-* 啟動 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 分類"^] 在Volume上
-* 啟動 https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html["BlueXP 複寫"^] 在Volume上（Azure NetApp Files 不適用於
+* 啟動 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 在Volume上（Azure NetApp Files 不適用於
+* 啟動 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"^] 在Volume上
+* 啟動 https://docs.netapp.com/us-en/bluexp-replication/concept-replication.html["BlueXP 複寫"^] 在Volume上（Azure NetApp Files 不適用於
 
 
 例如、您可以建立建立Cloud Volumes ONTAP 一個範本來建立一個功能區。或是建立 Cloud Volumes ONTAP 磁碟區、然後在該磁碟區上啟用 BlueXP 備份與還原。或是建立 Cloud Volumes ONTAP 磁碟區、然後在該磁碟區上啟用 BlueXP 備份與還原 _BlueXP 分類。

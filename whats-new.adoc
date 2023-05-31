@@ -24,13 +24,13 @@ summary: 瞭解 BlueXP 補救與標記的新功能。
 
 === 現在您可以建立範本來尋找特定的工作環境
 
-使用「尋找現有資源」動作、您可以識別工作環境、然後使用其他範本動作（例如建立磁碟區）、輕鬆在現有的工作環境中執行動作。 https://docs.netapp.com/us-en/cloud-manager-app-template/task-define-templates.html#examples-of-finding-existing-resources-and-enabling-services-using-templates["如需詳細資料、請前往此處"]。
+使用「尋找現有資源」動作、您可以識別工作環境、然後使用其他範本動作（例如建立磁碟區）、輕鬆在現有的工作環境中執行動作。 https://docs.netapp.com/us-en/bluexp-remediation/task-define-templates.html#examples-of-finding-existing-resources-and-enabling-services-using-templates["如需詳細資料、請前往此處"]。
 
 
 
 === 能夠在Cloud Volumes ONTAP AWS中建立一個功能不只是功能不一的HA工作環境
 
-目前在Cloud Volumes ONTAP AWS中建立功能完善的環境、除了建立單一節點系統之外、還包括建立高可用度系統。 https://docs.netapp.com/us-en/cloud-manager-app-template/task-define-templates.html#create-a-template-for-a-cloud-volumes-ontap-working-environment["瞭解如何建立Cloud Volumes ONTAP 適用於各種作業環境的範本"]。
+目前在Cloud Volumes ONTAP AWS中建立功能完善的環境、除了建立單一節點系統之外、還包括建立高可用度系統。 https://docs.netapp.com/us-en/bluexp-remediation/task-define-templates.html#create-a-template-for-a-cloud-volumes-ontap-working-environment["瞭解如何建立Cloud Volumes ONTAP 適用於各種作業環境的範本"]。
 
 
 
@@ -42,7 +42,7 @@ summary: 瞭解 BlueXP 補救與標記的新功能。
 
 使用新的「尋找資源」動作、您可以識別要啟用Cloud Backup的所有磁碟區、然後使用Cloud Backup動作來啟用這些磁碟區上的備份。
 
-目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。 https://docs.netapp.com/us-en/cloud-manager-app-template/task-define-templates.html#find-existing-volumes-and-activate-bluexp-backup-and-recovery["如需詳細資料、請前往此處"]。
+目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。 https://docs.netapp.com/us-en/bluexp-remediation/task-define-templates.html#find-existing-volumes-and-activate-bluexp-backup-and-recovery["如需詳細資料、請前往此處"]。
 
 
 
@@ -52,4 +52,4 @@ summary: 瞭解 BlueXP 補救與標記的新功能。
 
 === 現在您可以標記同步關係、以便將其分組或分類、以便輕鬆存取
 
-https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["深入瞭解資源標記"]。
+https://docs.netapp.com/us-en/bluexp-remediation/concept-tagging.html["深入瞭解資源標記"]。

@@ -77,7 +77,6 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">需求</block>
   <block id="4b09bdd4ca435f6a4b77b142f9481573" category="paragraph">請閱讀下列要求、確認您擁有支援的組態。</block>
   <block id="23e0e07c56fc07b2d6bc44d30e5187d4" category="inline-link">瞭解如何建立連接器</block>
-  <block id="880e0da9ea31d472fa96b1ad7e4be6ad" category="list-text">如果您還沒有連接器、<block ref="0e90a2191f59a8f46190195b37c75156" category="inline-link-rx"></block> 適用於AWS、Azure和GCP。</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="inline-link">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="inline-link">Azure</block>
   <block id="c731f72e1d22a7c5e01a7cb789a8885e" category="inline-link">GCP</block>
@@ -87,7 +86,6 @@
   <block id="54efaa09fa271348667d3925486f25d8" category="paragraph">資源範本可讓您建立新的Volume或全新Cloud Volumes ONTAP 的功能區環境。</block>
   <block id="030a036b48378de1f3003036be2d3597" category="section-title">建立Cloud Volumes ONTAP 一個範本、以供作一份不全版的範本</block>
   <block id="ab93b13353c035a51f382bda0bfbed96" category="inline-link">如何配置Cloud Volumes ONTAP 功能不均</block>
-  <block id="821f9fc7a9c5e046eb762a4d185a08f7" category="paragraph">請參閱<block ref="154a2016582f1d0d3d1ef7ccb4cc4af7" category="inline-link-rx"></block> 如需Cloud Volumes ONTAP 有關您需要在《關於我們的資料與資料的資料、請參閱《關於我們的資料與資料的資料、</block>
   <block id="e9e4c331008e320c9b03b119f438ec84" category="paragraph">在此範例中、我們將建立名為「資料庫的CVO Volume」的範本、並包含下列2項動作：</block>
   <block id="6115c1aa690e31fcf33eef72f8accb32" category="list-text">建立Cloud Volumes ONTAP 本系統的功能</block>
   <block id="4611422bf9a4ff570849e7d651f9c0a2" category="paragraph">建立AWS環境的磁碟區、設定100 GB的儲存空間、將Snapshot原則設為「預設」、並啟用儲存效率。</block>
@@ -133,7 +131,6 @@
   <block id="979ea4704bcee326b5ea5d2bc6a4a89b" category="list-text">*分層：*選擇您要套用至磁碟區的分層原則、或是如果您不想將冷資料從這個磁碟區分層至物件儲存設備、請將此原則設為「無」。</block>
   <block id="e8ef245792950f46479876f766e2e142" category="inline-link">Volume分層原則</block>
   <block id="b0e17b25c2ac5fdfcde0ef543eb85101" category="inline-link">將非作用中資料分層至物件儲存設備</block>
-  <block id="ee33f204180d62cfb217e1aec2a2f775" category="paragraph">請參閱<block ref="51ba3de2fe0f2a8abd8380ab98f33811" category="inline-link-rx"></block> 如需概觀、請參閱<block ref="d98e4cd2c7e92258651d80578af83733" category="inline-link-rx"></block> 確保您的環境已設定為分層。</block>
   <block id="dcbae1cdee8a3f08d129ff3de6884125" category="list-text">定義此動作所需的參數後、請按一下「*套用*」。</block>
   <block id="7566e7b2ebc49252e3a55e0d5dd8d796" category="paragraph">如果範本值已正確完成、「Create Volume in Cloud Volumes ONTAP the報價」（建立Volume in the報價）方塊中會新增綠色勾號。</block>
   <block id="e7b2940e4c4ae2261e85a3d7a22c8cb5" category="inline-image-macro">快照顯示可新增至所建立Volume的其他動作。</block>
@@ -201,7 +198,6 @@
   <block id="cc46cd379c9c1e14c8c28bca9392395f" category="list-text">此範本不會在工作環境中建立第一個Volume。您必須在Cloud Volumes ONTAP 範本中新增「Create Volume in Es...（建立流通量）」動作、才能建立Volume。</block>
   <block id="af78f376877c8c8c70d830fc500a2cca" category="inline-link">如何在Cloud Volumes ONTAP AWS中啟動單一節點的不全功能系統</block>
   <block id="27b91813df07253f9b34c2c33a28dc25" category="inline-link">AWS中的HHA配對Cloud Volumes ONTAP</block>
-  <block id="cc8cd5a43afbf50d3c76ca4927c286d1" category="paragraph">請參閱<block ref="17218100ebd265ac766a5fc208b6c6f8" category="inline-link-rx"></block> 或是<block ref="e59af64db55d6d6b5c59844c08c8e1b5" category="inline-link-rx"></block> 必須具備的先決條件、以及您需要在此範本中定義的所有參數詳細資料。</block>
   <block id="982967d26b8426889a4c2982331cbefe" category="paragraph"><block ref="982967d26b8426889a4c2982331cbefe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40bb655abcddd337fbc3dc9a23c1c92b" category="list-text">選取*在AWS（單一節點）中建立工作環境*或*在AWS中建立工作環境（高可用度）*做為您要建立的資源類型、然後按一下*套用*。</block>
   <block id="e8547bfeacec12f30aa5d7de4fbd86b4" category="paragraph">在此範例中、會顯示「_Create Working Environment in AWS（單一節點）_」頁面。</block>
@@ -219,7 +215,6 @@
   <block id="94b720129da1fad395a78adb9dd8004f" category="list-text">* 資料加密 * ：不選擇資料加密或 AWS 管理的加密。</block>
   <block id="8d4e0ae3c5be71d9c725659a6203fb6f" category="paragraph">對於 AWS 管理的加密、您可以從帳戶或其他 AWS 帳戶中選擇不同的客戶主金鑰（ CMK ）。</block>
   <block id="7238e3ed6732433c6a3fc43c882f2749" category="inline-link">瞭解如何設定 AWS KMS for Cloud Volumes ONTAP the 功能</block>
-  <block id="2dff4bc0654f658707793fc687e4a17f" category="paragraph"><block ref="aab3f238743393f06eea77a640671e14" category="inline-link-rx"></block>。</block>
   <block id="84fee0ef7a3aad23dfb27e9c3b17b961" category="list-text">*充電方法*：指定您要搭配此系統使用的充電選項。</block>
   <block id="9dbd3ac8bddbf4313a163e34e79476bf" category="inline-link">瞭解這些充電方法</block>
   <block id="8ac4cd210de5bd5fe91a871c186e8be3" category="list-text">* NetApp支援網站帳戶*：選擇NetApp支援網站帳戶。</block>
@@ -300,7 +295,6 @@
   <block id="cd5d05c14061b6263cc650d83d3d5659" category="list-text">將磁碟區複製到Cloud Volumes ONTAP 一個邊叢集（而非內部ONTAP 的邊叢集）時、您需要指定要用於新磁碟區的磁碟類型。</block>
   <block id="4d10b6637923bf1b343d93d2f5f97467" category="list-text">*複寫詳細資料*：輸入複寫作業類型和頻率的詳細資料：</block>
   <block id="2e05b02199241577d21f467e3a216fc1" category="inline-link">複寫原則</block>
-  <block id="23647b4aee667229f438bac6d37c6f14" category="list-text">選取<block ref="fce626f96b8a582bd914af9774e3f4bd" category="inline-link-rx"></block> 您想要使用的。</block>
   <block id="28b7ceda6afe52e7cddb056ae1cc1b42" category="list-text">選擇一次性複本或重複複複複寫排程。</block>
   <block id="a890fcd17657bbd0255d609a9ac66f87" category="inline-link-macro">請參閱偏移報告中的內容</block>
   <block id="a17ec67a32a0998705df91c25c3b8420" category="list-text">選取是否要設定傳輸率限制、然後輸入資料傳輸的最大傳輸率（以每秒KB為單位）。您可以輸入固定值、也可以提供最小值和最大值、讓儲存設備管理員在該範圍內選取一個值。</block>
@@ -330,9 +324,7 @@
   <block id="7d732f0050089fa03a5ccaf0ef3972e8" category="list-text">從「範本」儀表板執行Volume範本</block>
   <block id="2b408048493f7891ab8a18339cbef7b1" category="paragraph">無論您選擇何種方法、您必須定義的所需Volume參數詳細資料都可在下列各節中找到：</block>
   <block id="1d4cf496ca25a3cab66cbc73d2b1c000" category="inline-link">如何配置Cloud Volumes ONTAP 功能不均</block>
-  <block id="2be95708ec7ad744a5fa35812c4330a3" category="list-text"><block ref="2be95708ec7ad744a5fa35812c4330a3" category="inline-link-rx"></block></block>
   <block id="96483bf24dd5d282884c28a8c230bfde" category="inline-link">如何配置Azure NetApp Files 功能不均</block>
-  <block id="ed7e85ad682d7c827abfc065cc610813" category="list-text"><block ref="ed7e85ad682d7c827abfc065cc610813" category="inline-link-rx"></block></block>
   <block id="df4a9164b01ccf35f74c9520638ad0b7" category="inline-link">如何配置內部部署ONTAP 的功能</block>
   <block id="c07fd60a71244d7a4ab72c83beb068d6" category="section-title">從工作環境執行Volume範本</block>
   <block id="2342f0281f4d2a90f7477ed651c18e7f" category="paragraph">您可以從「工作環境」頁面和「磁碟區詳細資料」頁面、將磁碟區新增至現有的工作環境。</block>
@@ -360,7 +352,6 @@
   <block id="9ab493f5de85b8e5a3705fe61fdf293d" category="section-title">選取並執行工作環境範本</block>
   <block id="01a2a85f3cd4ec0dcb3da1124102db42" category="paragraph">如果貴公司已建立此功能的範本、您可以從_範本儀表板_建立新的工作環境。</block>
   <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">在 Cloud Volumes ONTAP AWS 中啟動</block>
-  <block id="03fdeb1a058aa425a68019c66e34e6ca" category="paragraph">如果您對建立工作環境所需的詳細資料有任何疑問、請參閱<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>。</block>
   <block id="6195381a3e6e204f9315912ad2e31d58" category="paragraph"><block ref="6195381a3e6e204f9315912ad2e31d58" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4532596496eaadd10e82985d53d942d9" category="list-text">在可編輯欄位中輸入值、以建立工作環境和第一個磁碟區、然後按一下*執行範本*。</block>
   <block id="f208614ddd4a42d1fe01800107447f9d" category="inline-image-macro">螢幕快照顯示您從範本建立工作環境所需定義的參數。</block>
@@ -390,17 +381,14 @@
   <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">2022年3月3日</block>
   <block id="400480e0d45c783abec0a0fffbb005a6" category="section-title">現在您可以建立範本來尋找特定的工作環境</block>
   <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">如需詳細資料、請前往此處</block>
-  <block id="d92cd2c19989d78fa305aa796b16eb3e" category="paragraph">使用「尋找現有資源」動作、您可以識別工作環境、然後使用其他範本動作（例如建立磁碟區）、輕鬆在現有的工作環境中執行動作。<block ref="9d92075da3fbaa4669bd5d845665bbc5" category="inline-link-rx"></block>。</block>
   <block id="411448f8702bbfa858b0a2ba2ee94014" category="section-title">能夠在Cloud Volumes ONTAP AWS中建立一個功能不只是功能不一的HA工作環境</block>
   <block id="6eed6fdcaa0bf2c22f0c8e78ff686d29" category="inline-link">瞭解如何建立Cloud Volumes ONTAP 適用於各種作業環境的範本</block>
-  <block id="9f1c9f721b531a16a189c619276f3969" category="paragraph">目前在Cloud Volumes ONTAP AWS中建立功能完善的環境、除了建立單一節點系統之外、還包括建立高可用度系統。<block ref="35471ca8d19c78b8fa96525b636e5efc" category="inline-link-rx"></block>。</block>
   <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">2022年2月9日</block>
   <block id="f1f7e50301c1e57e30e795fa8928ee8f" category="section-title">現在、您可以建立範本來尋找特定的現有磁碟區、然後啟用Cloud Backup</block>
   <block id="98b343467576e58f6658965bc67f83c1" category="paragraph">使用新的「尋找資源」動作、您可以識別要啟用Cloud Backup的所有磁碟區、然後使用Cloud Backup動作來啟用這些磁碟區上的備份。</block>
   <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">2021年10月31日</block>
   <block id="70c889b200c3ef8dbb491ca542d1d091" category="section-title">現在您可以標記同步關係、以便將其分組或分類、以便輕鬆存取</block>
   <block id="049ebb609707e4c76f578eb98777ffdc" category="inline-link">深入瞭解資源標記</block>
-  <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>。</block>
   <block id="29c77a5a00dda7efae90c176f1eaa37b" category="paragraph">範本可讓儲存管理員輕鬆建立專為每個已部署應用程式的工作負載需求最佳化的磁碟區、例如資料庫、電子郵件或串流服務。而且儲存架構設計師知道每個磁碟區都是針對每個應用程式最佳化建立、因此能更輕鬆地完成工作。</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="3a07949495aa0f10524a38b2f8b42ff9" category="list-text">自動化並改善基礎架構的設計與開發</block>
@@ -567,7 +555,6 @@
   <block id="313a2072e1da794cb340b46d310d902f" category="paragraph">此陳述式的評估順序如下：&lt;Rule1&gt;或（&lt;Rule&gt;&gt;和&lt;Rule3&gt;）</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出現提示時、按一下*繼續*以重新導向至Microsoft登入頁面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
@@ -603,8 +590,6 @@
   <block id="d912e080eacd169b9c6ec8ad804b0fe2" category="paragraph">如果您使用BlueXP 3.9.10版或更新版本建立Connector、就會設定好。如果您使用較早版本的BlueXP建立Connector、則需要新增一些BlueXP IAM角色所需的權限、以標記AWS EC2執行個體：</block>
   <block id="61e852c379d0f3c7c2f47bcd0152539d" category="paragraph">如果您使用BlueXP 3.9.10版或更新版本建立Connector、就會設定好。如果您使用較早版本的BlueXP建立Connector、則需要新增一些必要的權限給BlueXP運算子IAM角色、以標記Azure資源：</block>
   <block id="81736c3492216167017a2d56ef452f6f" category="paragraph">選取*健全狀況&gt;補救*、按一下*編輯器*索引標籤、然後選取您要在範本中使用的動作。</block>
-  <block id="e30afa6af477c023130a06261e3f1227" category="list-text">建立內部部署ONTAP 的Sfor Volume範本時、請務必為ONTAP 使用者提供內部部署的可視環境。瞭解如何操作<block ref="73a5fece0c926f1d97e300f9e1e63b86" category="inline-link-rx"></block> 在BlueXP中。</block>
-  <block id="592b06abb0acdfe2b240cddf86e10637" category="list-text">建立Azure NetApp Files 一個功能不全的範本時、請務必為Azure NetApp Files 使用者提供一個功能不全的工作環境。瞭解如何操作<block ref="476f1ab3b7492b38993b3c305f1332d8" category="inline-link-rx"></block> 在BlueXP中。</block>
   <block id="44fbc3f04f1c80f38f04a2c9ae828fad" category="list-text">選擇*健全狀況&gt;補救*、按一下*範本*索引標籤、然後按一下*新增範本*。</block>
   <block id="0107177951fcfb1e8290634ec2f0b1ad" category="paragraph">建立此範本時、可使用心軸來監控輸入參數的硬編碼值。</block>
   <block id="14938059a03b38f1f630bba556c15624" category="cell">BlueXP使用工作環境名稱來命名Cloud Volumes ONTAP 整個系統、以及Amazon EC2執行個體。如果您選取該選項、它也會使用名稱做為預先定義安全性群組的前置詞。按一下欄位、然後選取5個選項之一。您可以選擇*任意文字*讓管理員輸入任何名稱、或是指定工作環境名稱必須有特定的字首或字尾、_包含_特定字元、或是遵循您輸入之規則運算式（regex）的規則。</block>
@@ -640,7 +625,6 @@
   <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未這麼做、請將您的NSS帳戶新增至藍圖XP。</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*資源*頁面上、按一下*註冊以取得支援*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">顯示帳戶序號和「Register for Support」（註冊支援）選項的快照</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶、但無NSS.帳戶</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是現有的NetApp客戶、擁有現有授權和序號、但_否_ nss_帳戶、您只需要建立一個nss.帳戶。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">《使用者登錄表》NetApp 支援網站</block>
@@ -649,7 +633,6 @@
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">請務必複製上述序號欄位使用的BlueXP帳戶序號（960xxxx）。這將加速帳戶處理。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新推出</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客戶、而且您沒有新的NSS帳戶、請依照下列每個步驟操作。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支援註冊網站</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">瀏覽至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 並選擇*我不是NetApp註冊客戶*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（紅色星號）。</block>
@@ -680,7 +663,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
@@ -696,7 +678,6 @@
   <block id="6d28d54ad9c4f6685bb752801088510b" category="summary">您可以使用BlueXP標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。</block>
   <block id="10b56653c6ddbf81d7d4419364238254" category="list-text">選擇*健全狀況&gt;補救*、然後按一下*標記*索引標籤。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">開始之前</block>
@@ -718,10 +699,7 @@
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支援雲端供應商解決方案</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">如需您已整合至BlueXP的下列雲端供應商解決方案的技術支援、請參閱該產品的藍圖XP文件中的「取得協助」。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自我支援選項</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">利用NetApp支援建立案例</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在「*資源*」頁面上、選擇「技術支援」下的其中一個可用選項：</block>
@@ -744,28 +722,20 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*組織案例*下、按一下*檢視*以檢視與貴公司相關的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">選擇確切的日期範圍或選擇不同的時間範圍、以修改日期範圍。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理頁面上方表格上方選項的快照、可讓您選擇確切的日期範圍或過去7天、30天或3個月。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">篩選欄的內容。</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">「狀態」欄中篩選選項的快照、可讓您篩選出符合特定狀態（例如「作用中」或「已關閉」）的個案。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">出現在表格中的加號圖示</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">按一下以變更表格中顯示的欄 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">顯示可在表格中顯示之欄的快照。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一欄中出現三個點的圖示</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">按一下即可管理現有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資料。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS-帳戶必須是客戶層級的帳戶（而非來賓帳戶或暫存帳戶）。您可以擁有多個客戶層級的NSS帳戶。</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果該帳戶是合作夥伴層級帳戶、則只能有一個NSS帳戶。如果您嘗試新增客戶層級的NSS帳戶、但有合作夥伴層級的帳戶存在、您會收到下列錯誤訊息：</block>
   <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「此帳戶不允許使用新增服務客戶類型、因為已經有不同類型的新增服務使用者。」</block>
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您擁有預先存在的客戶層級的NSS帳戶、並嘗試新增合作夥伴層級的帳戶、情況也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
   <block id="372533b812476a88b7d5ef31e459c351" category="list-text">您對所有範本執行漂移檢查、 BlueXP 補救服務會將 Snapshot Copies 範本設定與 Volume 中的目前設定進行比較。任何不合規的值都會加上旗標、以便修正不正確的設定。</block>
   <block id="cd8046669abc4a37bf25067917da6cf9" category="inline-image-macro">BlueXP 補救服務的漂移儀表板螢幕快照。</block>
@@ -779,10 +749,6 @@
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">BlueXP 備份與還原</block>
   <block id="4cc849f381058f76f6b72a1c4279393d" category="inline-link">BlueXP 分類</block>
   <block id="3ffe2e9dffcfea6ba0652c1f11e54fc1" category="inline-link">BlueXP 複寫</block>
-  <block id="9ca35cb1b30a084cd819111a15c64e77" category="paragraph">選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動<block ref="2b39f52a9715f26b8fe862bdca0f5ff1" category="inline-link-rx"></block>、<block ref="2c710310de596aa5a81877d014205606" category="inline-link-rx"></block>和<block ref="85f98efc20d83de4c171ca5859337904" category="inline-link-rx"></block> 在已建立的磁碟區或現有磁碟區上。</block>
-  <block id="7753d3ec576dc9efc0f80fc6b9f48f97" category="list-text">如果範本啟動磁碟區上的雲端服務、例如<block ref="2b39f52a9715f26b8fe862bdca0f5ff1" category="inline-link-rx"></block> 或<block ref="2c710310de596aa5a81877d014205606" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
-  <block id="07975f258f3cd721da70af18c68fa13b" category="list-text">如果範本啟動磁碟區上的雲端服務、例如 <block ref="2b39f52a9715f26b8fe862bdca0f5ff1" category="inline-link-rx"></block>、<block ref="2c710310de596aa5a81877d014205606" category="inline-link-rx"></block>或<block ref="85f98efc20d83de4c171ca5859337904" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
-  <block id="4bf3ac864f59b573779a4b8a188e0a66" category="list-text"><block ref="4bf3ac864f59b573779a4b8a188e0a66" category="inline-link-rx"></block></block>
   <block id="51fa4f80c02ff60f7bc1abbc7d99d4bc" category="paragraph">如果貴公司已使用此功能建立範本、您可以執行範本來尋找特定資源（例如 Volume ）、然後在這些資源上啟用雲端服務（例如 BlueXP 備份與還原）。執行範本時、您可以稍微調整一下、以便只將雲端服務套用至適當的資源。</block>
   <block id="44af46a339b6fd8425ddaac900e73f6f" category="list-text">如果結果符合您的預期、請使用範本中 _Enable Cloud Backup on Volume_部分 的準則、針對您想要啟用 BlueXP 備份與還原的每個磁碟區選取核取方塊、然後按一下 * 執行範本 * 。</block>
   <block id="08ea921bf1012f71a17a32a3fc1b9db6" category="paragraph">範本將會執行、並在您根據搜尋條件檢查的每個磁碟區上啟用 BlueXP 備份與還原。</block>
@@ -793,28 +759,20 @@
   <block id="5e78b88524f6c807a9f2ad88b3f0fb57" category="paragraph">例如、您可能有一項準則、指出如果某個磁碟區的容量大於 50 GB 、則必須在該磁碟區上啟用 BlueXP 備份與還原。如果磁碟區容量較小、則不會啟用 BlueXP 備份與還原。您可以在範本中實作此功能、如下所示。</block>
   <block id="33c54d424758d4a84004512c33514f85" category="inline-image-macro">顯示範本如何使用條件以有條件啟用 BlueXP 備份與還原的螢幕擷取畫面。</block>
   <block id="140d54cd657106e902568fa28a521cf1" category="paragraph"><block ref="140d54cd657106e902568fa28a521cf1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b8266a139fe859025b8bb875c44b1bed" category="list-text">如果您計畫將雲端服務「行動」新增至範本、例如<block ref="2b39f52a9715f26b8fe862bdca0f5ff1" category="inline-link-rx"></block> 或<block ref="2c710310de596aa5a81877d014205606" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
-  <block id="8f8ea6f463cacff960686b6bd6b3f4a4" category="list-text">建立Cloud Volumes ONTAP 一個功能不全的範本時、請務必Cloud Volumes ONTAP 為使用者提供一個功能不全的工作環境。瞭解如何在中啟動Cloud Volumes ONTAP 一套功能完善的系統<block ref="d48c7204d9a23e0c67e4c63c028fc359" category="inline-link-rx"></block>、<block ref="9980b328a51ea35645f26e6738018d49" category="inline-link-rx"></block>或<block ref="a2f34fbb7d4cd43b6878f17806ecc00a" category="inline-link-rx"></block>。</block>
   <block id="c9e47ca1ece3aae1869d6fa91d72f8f3" category="list-text">如果您打算使用 BlueXP 備份與還原來備份範本中的磁碟區、請確定您的環境已啟動 BlueXP 備份與還原。</block>
   <block id="7164aa607c641bad321d653f0f2ef878" category="list-text">如果您打算使用 BlueXP 分類來掃描範本中的磁碟區、請確定您的環境已啟動 BlueXP 分類。</block>
   <block id="56521c58c116e921a830091c61343aca" category="list-text">如果您計畫在範本中啟用 BlueXP 複寫、且範本是針對內部部署 ONTAP Volume 、則 ONTAP 叢集必須擁有有效的 SnapMirror 授權。</block>
   <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="list-text">啟用 BlueXP 備份與還原</block>
   <block id="3c8e33af6e4bd2a2c497b3d87616506c" category="list-text">按一下 * 啟用 Volume 上的雲端備份 * 方塊、隨即顯示 _ 啟用 Volume 上的雲端備份動作定義 _ 對話方塊、以便您填寫 BlueXP 備份與還原詳細資料。</block>
   <block id="552bef51024addf6c4f5c63929d33718" category="list-text">按一下 * 套用 * 、即可儲存 BlueXP 備份與還原對話方塊。</block>
-  <block id="70bc2a664a24295c9ac1f72d4ea305cd" category="paragraph">請參閱<block ref="0c661e3930f1e020e8f43c7a637ae58f" category="inline-link-rx"></block> 如需所有必要參數的詳細資訊、請參閱內部部署ONTAP 的解決方案資料範本。</block>
-  <block id="81a8daeda4f6298d9acccfee2722a672" category="list-text">*位置與連線*：輸入您在中記錄的網路資訊<block ref="57c247bbef8ebe341e2b4a4759be3e19" category="inline-link-rx"></block>。這包括AWS區域、VPC、子網路和安全性群組。</block>
-  <block id="3ef29b3dd75ee64739cfbad76da157f1" category="paragraph"><block ref="f9418073b88f5d36a2be20e415620719" category="inline-link-rx"></block>。</block>
   <block id="e5454149dbf8c23363be8d25a5702a73" category="admonition">現在您可以在Cloud Volumes ONTAP 內部部署ONTAP 的地方找到各種版本的資料、包括：功能性的、功能性的、功能性的、功能性的、功能性的等等Azure NetApp Files 。您也可以在 Cloud Volumes ONTAP 和內部部署 ONTAP 磁碟區上啟用 BlueXP 備份與還原。稍後將提供額外的資源和服務。</block>
   <block id="2cb7e274b08a1ada929bdde1e5182fac" category="paragraph">目前的「尋找現有資源」行動功能可讓您在 Cloud Volumes ONTAP 和內部部署的 ONTAP 工作環境中尋找目前未啟用 BlueXP 備份與還原或 BlueXP 分類的磁碟區。當您在特定磁碟區上啟用 BlueXP 備份與還原時、此動作也會將您設定的備份原則設為該工作環境的預設原則、因此這些工作環境中未來的所有磁碟區都可以使用相同的備份原則。</block>
   <block id="a691937f2bedfbe485e0a5632a3e18ff" category="paragraph">建議您填寫幾個篩選條件、以減少套用 BlueXP 備份與還原動作的結果數量（本案例為 Volume ）。</block>
   <block id="9bd30f7c4c3061ea1452d2bb94d3ccb5" category="inline-image-macro">螢幕擷取畫面顯示將 BlueXP 備份與還原動作新增至範本的步驟。</block>
   <block id="c94523d9a61bd23630ae699468b59912" category="paragraph"><block ref="c94523d9a61bd23630ae699468b59912" category="inline-image-macro-rx" type="image"></block></block>
   <block id="27361520eb7e5cef0ef9294b8be31f53" category="paragraph">服務範本可讓您在新建立的磁碟區上啟動 BlueXP 備份與還原、 BlueXP 分類或 BlueXP 複寫（ SnapMirror ）服務。</block>
-  <block id="2379567db82c15355e3be04068b7b974" category="paragraph">建立Volume範本時、您可以新增想要定期使用建立Volume備份的範本<block ref="2b39f52a9715f26b8fe862bdca0f5ff1" category="inline-link-rx"></block> 服務：</block>
   <block id="a38d0b0e90841cea024d72c117a2426b" category="section-title">將 BlueXP 分類功能新增至磁碟區</block>
-  <block id="9c586aa01408a40b2537cb097a8ab12b" category="paragraph">建立Volume範本時、您可以新增範本、以便使用掃描Volume以取得法規遵循與分類<block ref="2c710310de596aa5a81877d014205606" category="inline-link-rx"></block> 服務：</block>
   <block id="85f23a277d881512b055e09978ab9bb3" category="section-title">將 BlueXP 複寫功能新增至磁碟區</block>
-  <block id="cd74e17bd5681fa22dbf78c857904d85" category="paragraph">建立Volume範本時、您可以使用將磁碟區中的資料複寫到其他磁碟區的範本中<block ref="85f98efc20d83de4c171ca5859337904" category="inline-link-rx"></block> 服務：您可以將資料複寫到Cloud Volumes ONTAP 一個不間斷叢集或內部ONTAP 的一個不間斷叢集。</block>
   <block id="dd9f9bc105ce1ce8a95ece4914938335" category="paragraph">BlueXP 複寫功能包含三個部分：選取來源磁碟區、選取目的地磁碟區、以及定義複寫設定。每一節的說明如下。</block>
   <block id="0ea58076a2176d7f136c88f75243998b" category="inline-image-macro">頁面的螢幕擷取畫面、用於定義 BlueXP 複寫來源磁碟區位置。</block>
   <block id="8d46514284e4823c32c3dc4f228097be" category="paragraph"><block ref="8d46514284e4823c32c3dc4f228097be" category="inline-image-macro-rx" type="image"></block></block>
@@ -828,9 +786,6 @@
   <block id="b5b4d5d12eb80fff06c501695b37c685" category="doc">瞭解 BlueXP 補救措施</block>
   <block id="1032d262f842b007c559af1cf0e96a67" category="paragraph">BlueXP 補救措施提供下列功能與優點：</block>
   <block id="e3aea2348dd4f146b5c5f81c162d1f44" category="list-text">提供單一位置來啟動不同的 NetApp 雲端服務、例如 BlueXP 備份與還原、以及 BlueXP 分類</block>
-  <block id="323cdb54390926759b1ef2c2f8b3d501" category="list-text">啟動<block ref="2b39f52a9715f26b8fe862bdca0f5ff1" category="inline-link-rx"></block> 在Volume上（Azure NetApp Files 不適用於</block>
-  <block id="a42ceab68fd0ff5bf4b503951f8c32ed" category="list-text">啟動<block ref="2c710310de596aa5a81877d014205606" category="inline-link-rx"></block> 在Volume上</block>
-  <block id="12dab2db205f6f073384ed24600f3294" category="list-text">啟動<block ref="85f98efc20d83de4c171ca5859337904" category="inline-link-rx"></block> 在Volume上（Azure NetApp Files 不適用於</block>
   <block id="7cd3aca74bfb8a3594c0b5243d8efcd6" category="paragraph">例如、您可以建立建立Cloud Volumes ONTAP 一個範本來建立一個功能區。或是建立 Cloud Volumes ONTAP 磁碟區、然後在該磁碟區上啟用 BlueXP 備份與還原。或是建立 Cloud Volumes ONTAP 磁碟區、然後在該磁碟區上啟用 BlueXP 備份與還原 _BlueXP 分類。</block>
   <block id="affd4f6eb73b60f9a6a799c009261a82" category="section-title">BlueXP 補救的運作方式</block>
   <block id="4b77b7c05fa8d98f83a3beb44bf88064" category="paragraph">BlueXP 補救服務由 3 個部分組成。執行範本後、可用的範本「動作」、自訂的應用程式範本、以及已部署的資源。下圖顯示每個元件之間的關係：</block>
@@ -839,7 +794,6 @@
   <block id="63259a0b3eae7652a0de9d3e92907940" category="list-text">在任何 Gov Cloud 地區或沒有網際網路存取的站台中、均不支援 BlueXP 補救服務。</block>
   <block id="f3fb1dceef01486d91492939582c9e23" category="summary">瞭解 BlueXP 補救與標記的新功能。</block>
   <block id="a8d3fe6a91db602634ae243a55423c5f" category="doc">BlueXP 修正與標記的新功能</block>
-  <block id="12c7b4f361520fac32769892a3adb104" category="paragraph">目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。<block ref="cf92aa38511759ce0275086447e2bfa9" category="inline-link-rx"></block>。</block>
   <block id="06671a41421557bc8120e9c0432d0846" category="inline-link-macro">BlueXP 補救注意事項</block>
   <block id="73d5b5afc4a2cdcc8daaa40ba4ef5910" category="list-text"><block ref="73d5b5afc4a2cdcc8daaa40ba4ef5910" category="inline-link-macro-rx"></block></block>
   <block id="c60b09ae2c96c9e21869de6d6df59453" category="sidebar">BlueXP 補救文件</block>
@@ -847,6 +801,52 @@
   <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
   <block id="bdada2beda611e5479ba79eddd7f3b9f" category="sidebar">將備份、分類或複寫功能新增至磁碟區</block>
   <block id="3c66700164b4cb085d6e086bf6b7d73b" category="paragraph">何時 <block ref="438903b5e6182d9d4cc41396268e5cbc" category="inline-link-macro-rx"></block>、您可以選擇在「啟用複寫健全狀況監控」欄位中啟用偏移、以在偏移報告中顯示更詳細的複寫資訊。啟用時、漂移報告會顯示 BlueXP 複寫關係的健全狀況或不良狀況（漂移）、以及 SnapMirror 延遲時間、狀態和上次傳輸時間。</block>
-  <block id="c28223c3f7a03804f44448c7561c5f02" category="paragraph">請參閱<block ref="6525ab64efdc6d693874df3da6739f52" category="inline-link-rx"></block> 如需在ANF Volume範本中完成所有必要參數的詳細資料、</block>
   <block id="8abfe8e6c06581937c37ec49be54c6d7" category="list-text">如果您想要讓偏移報告包含SnapMirror關係的複寫健全狀況、以及延遲時間、狀態和上次傳輸時間、請啟用複寫健全狀況狀態監控。 <block ref="1eb00ed04881df5d17ae6b01acb7f8fb" category="inline-link-macro-rx"></block>。</block>
+  <block id="8b6065ebfe1dc5ad36b1f573c520ca7b" category="list-text">啟動<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> 在Volume上（Azure NetApp Files 不適用於</block>
+  <block id="ca8a7d472600ff02b2221730ba6c0910" category="list-text">啟動<block ref="9f1ec2087e0d1ce18384b513ed9384ac" category="inline-link-rx"></block> 在Volume上</block>
+  <block id="765d104c194ef63622ce482bcbb5b331" category="list-text">啟動<block ref="b48eb40e80af321c061fb9bb5bdc57e8" category="inline-link-rx"></block> 在Volume上（Azure NetApp Files 不適用於</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="list-text"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">按一下以變更表格中顯示的欄 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">按一下即可管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0933d78f39558c1d60b924eb5ef7b6b3" category="paragraph">選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block>、<block ref="9f1ec2087e0d1ce18384b513ed9384ac" category="inline-link-rx"></block>和<block ref="b48eb40e80af321c061fb9bb5bdc57e8" category="inline-link-rx"></block> 在已建立的磁碟區或現有磁碟區上。</block>
+  <block id="ce9e1d5e41d303d762c5deb09200d5cf" category="list-text">如果範本啟動磁碟區上的雲端服務、例如<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> 或<block ref="9f1ec2087e0d1ce18384b513ed9384ac" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
+  <block id="7ae33a0d5954cc8cf0b943eb57ccd952" category="list-text">如果您還沒有連接器、<block ref="2a5ce266911f54233bfd9d690619c13e" category="inline-link-rx"></block> 適用於AWS、Azure和GCP。</block>
+  <block id="0170b4101a0baf851612f44b1af1bd91" category="list-text">如果範本啟動磁碟區上的雲端服務、例如 <block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block>、<block ref="9f1ec2087e0d1ce18384b513ed9384ac" category="inline-link-rx"></block>或<block ref="b48eb40e80af321c061fb9bb5bdc57e8" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
+  <block id="03fcb22b4c5f728498b075d5dd95479a" category="list-text"><block ref="03fcb22b4c5f728498b075d5dd95479a" category="inline-link-rx"></block></block>
+  <block id="a2d78bb7c261abd249ce3d52367b6693" category="list-text"><block ref="a2d78bb7c261abd249ce3d52367b6693" category="inline-link-rx"></block></block>
+  <block id="1a9925ccef57643ac9072f67ffbe08b1" category="list-text"><block ref="1a9925ccef57643ac9072f67ffbe08b1" category="inline-link-rx"></block></block>
+  <block id="8ee375494e7c691fd06683bf2b10b1ab" category="paragraph">如果您對建立工作環境所需的詳細資料有任何疑問、請參閱<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>。</block>
+  <block id="6036aba79be1763af24e9806bf6aa269" category="paragraph">使用「尋找現有資源」動作、您可以識別工作環境、然後使用其他範本動作（例如建立磁碟區）、輕鬆在現有的工作環境中執行動作。<block ref="1cc8e92b4ee69f285158646e972eb8d0" category="inline-link-rx"></block>。</block>
+  <block id="4bf671cced86fd4534b1e46341c4d33e" category="paragraph">目前在Cloud Volumes ONTAP AWS中建立功能完善的環境、除了建立單一節點系統之外、還包括建立高可用度系統。<block ref="4e312d070157c43d2c155d9ef416aea0" category="inline-link-rx"></block>。</block>
+  <block id="3ce8031a2a5efd8807d29dc5391ac03a" category="paragraph">目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。<block ref="71acbc1e86413ca32a85c458baf53529" category="inline-link-rx"></block>。</block>
+  <block id="c3f9f5f3154c847ae51038b02652e769" category="paragraph"><block ref="ebf81513d87da0002a3ac7ea6ee056cb" category="inline-link-rx"></block>。</block>
+  <block id="a67aa3c506dc1e3e71458730591e7353" category="list-text">如果您計畫將雲端服務「行動」新增至範本、例如<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> 或<block ref="9f1ec2087e0d1ce18384b513ed9384ac" category="inline-link-rx"></block>，確保服務在您的環境中處於活動狀態並獲得許可。</block>
+  <block id="563443a211d097cd0970692863af0f24" category="list-text">建立Cloud Volumes ONTAP 一個功能不全的範本時、請務必Cloud Volumes ONTAP 為使用者提供一個功能不全的工作環境。瞭解如何在中啟動Cloud Volumes ONTAP 一套功能完善的系統<block ref="d7d69f07b8eb80d953869d74116a5a25" category="inline-link-rx"></block>、<block ref="646fb5d6021b95c91cc12340db508693" category="inline-link-rx"></block>或<block ref="99ed313a118e0a4e944babdd85fd0d71" category="inline-link-rx"></block>。</block>
+  <block id="5601087b9e971d8dcccda79336d0e143" category="list-text">建立內部部署ONTAP 的Sfor Volume範本時、請務必為ONTAP 使用者提供內部部署的可視環境。瞭解如何操作<block ref="5001ce4efe77b0f9ec1d64155aeda69f" category="inline-link-rx"></block> 在BlueXP中。</block>
+  <block id="b1306d4915f1647331a39a23e516e5f9" category="list-text">建立Azure NetApp Files 一個功能不全的範本時、請務必為Azure NetApp Files 使用者提供一個功能不全的工作環境。瞭解如何操作<block ref="71a082f28cbbb19e3c51f560b747e04d" category="inline-link-rx"></block> 在BlueXP中。</block>
+  <block id="1ef45b25273f4fb6a0757a20d0ae8000" category="paragraph">請參閱<block ref="de5e5ecfceaa6540e965a1329fff5641" category="inline-link-rx"></block> 如需Cloud Volumes ONTAP 有關您需要在《關於我們的資料與資料的資料、請參閱《關於我們的資料與資料的資料、</block>
+  <block id="36275e033268608125caeb1c37be65e1" category="paragraph">請參閱<block ref="54cbb501a8cff7f592d62edae3f87405" category="inline-link-rx"></block> 如需概觀、請參閱<block ref="106f7c9c536341b0b6017402d8b08a30" category="inline-link-rx"></block> 確保您的環境已設定為分層。</block>
+  <block id="85ee115873191cb6be0a8e74e82a7853" category="paragraph">請參閱<block ref="2def8c2ccf597f4d8dc19ffd9d897023" category="inline-link-rx"></block> 如需在ANF Volume範本中完成所有必要參數的詳細資料、</block>
+  <block id="6dd8f582a4789de203919dacf96215d1" category="paragraph">請參閱<block ref="79820a838ca95942089efa8cd66ad0bd" category="inline-link-rx"></block> 如需所有必要參數的詳細資訊、請參閱內部部署ONTAP 的解決方案資料範本。</block>
+  <block id="52ff0e1e1cf49cfaaf32bcbe4041367b" category="paragraph">請參閱<block ref="cb7f705315d3237df228bf9a40f09e47" category="inline-link-rx"></block> 或是<block ref="5df66716738b1e90edd23535a02ddc1a" category="inline-link-rx"></block> 必須具備的先決條件、以及您需要在此範本中定義的所有參數詳細資料。</block>
+  <block id="0e76ee72f7f2db2f34411a9d349a143a" category="list-text">*位置與連線*：輸入您在中記錄的網路資訊<block ref="fd0086af96971a0360fa581d84484686" category="inline-link-rx"></block>。這包括AWS區域、VPC、子網路和安全性群組。</block>
+  <block id="6554dc8accb868041c2ed570df9b1b7e" category="paragraph"><block ref="a2cdbc05d0cb12624a021bd8c1386b8b" category="inline-link-rx"></block>。</block>
+  <block id="f57eea965e2596f0e2a09fb6e398e2f7" category="paragraph"><block ref="aa88910bfcf5d9016ec7b1e65e6645b7" category="inline-link-rx"></block>。</block>
+  <block id="01c90bfb7025ffc30e7de67902f89266" category="paragraph">建立Volume範本時、您可以新增想要定期使用建立Volume備份的範本<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> 服務：</block>
+  <block id="d61bbf907a8f8c3483365217f54a0924" category="paragraph">建立Volume範本時、您可以新增範本、以便使用掃描Volume以取得法規遵循與分類<block ref="9f1ec2087e0d1ce18384b513ed9384ac" category="inline-link-rx"></block> 服務：</block>
+  <block id="ebe8166e2d2acc77aeb86671eae51613" category="paragraph">建立Volume範本時、您可以使用將磁碟區中的資料複寫到其他磁碟區的範本中<block ref="b48eb40e80af321c061fb9bb5bdc57e8" category="inline-link-rx"></block> 服務：您可以將資料複寫到Cloud Volumes ONTAP 一個不間斷叢集或內部ONTAP 的一個不間斷叢集。</block>
+  <block id="b3a2d58181743613013b869bc8d7bf82" category="list-text">選取<block ref="d9ba635c7ce1746fe6b8d9870415f80a" category="inline-link-rx"></block> 您想要使用的。</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
