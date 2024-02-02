@@ -67,7 +67,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
   <block id="cc371045494864a1be09aecf8486813b" category="summary">選取NetApp提供的一或多個「行動」、然後快速建立應用程式範本、讓貴組織開始最佳化資源的建立。</block>
   <block id="7b7aa0d4bd1d1332a50f445e21889bc8" category="doc">為組織建置應用程式範本</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入門</block>
@@ -551,7 +550,6 @@
   <block id="313a2072e1da794cb340b46d310d902f" category="paragraph">此陳述式的評估順序如下：&lt;Rule1&gt;或（&lt;Rule&gt;&gt;和&lt;Rule3&gt;）</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -561,20 +559,6 @@
   <block id="4a37630008b707a26bac4e9b9d2d91bc" category="sidebar">使用標記來組織資源</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
-  <block id="35f98b47133ad8954f63b25aef2dad3a" category="sidebar">瞭解標記</block>
-  <block id="12b8ed36a576a6d4769c8d350b438a8a" category="sidebar">建立範本</block>
-  <block id="59cccee54a9c1422dca33d7662d37b76" category="sidebar">作業環境Cloud Volumes ONTAP</block>
-  <block id="f829fef4575b38109cd246bafbd6718e" category="sidebar">流通量Cloud Volumes ONTAP</block>
-  <block id="217aec976bd66d37571f1fe0e44a4e77" category="sidebar">流通量Azure NetApp Files</block>
-  <block id="21dc3aafb4a3e393dccd900e9ba42118" category="sidebar">內部部署ONTAP 的產品不只是功能</block>
-  <block id="c8ca3079f96c0e324b876d7055a67c46" category="sidebar">使用範本建立資源</block>
-  <block id="70deba7f047a2bcc0d20e5ef94a2abf8" category="sidebar">CVO、內部部署和ANF的Volume</block>
-  <block id="f8de1ec8d7766950989e3205a63d91d9" category="sidebar">使用範本和標記來管理資源</block>
-  <block id="e85920abe34a4184988f078bd1e73279" category="sidebar">檢查資源是否符合範本規範（飄移）</block>
-  <block id="441c6d31d8063270a27b242c68cc0e6e" category="sidebar">執行可尋找現有資源的範本</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="214a61ce436e46b661501acdeee5221c" category="paragraph">此時、心軸會識別資源中已變更的參數、您必須手動調整資源、使其符合範本的要求。未來當資源超出法規遵循範例時、我們將能傳送通知給您、甚至可以反轉使用者的變更、使從範本建立的所有資源自動恢復法規遵循狀態。</block>
   <block id="5bd5bf968b8be74cc15838b062223bc7" category="paragraph">此時、您需要手動調整資源、使其符合範本的要求。 <block ref="070f7b254d8faecc6fc5a699202bdab9" category="inline-link-macro-rx"></block>。</block>
   <block id="cfd52dcb30bb7d2ea88bc2c66e2ccc0f" category="summary">BlueXP可讓您將標記套用至您的_existing _資源、以協助組織及管理這些資源。標記是中繼資料、可用來將資源分組、以識別應用程式、環境、地區、帳單代碼、雲端供應商、 以及更多資訊。</block>
@@ -621,7 +605,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
@@ -644,8 +627,6 @@
   <block id="6d28d54ad9c4f6685bb752801088510b" category="summary">您可以使用BlueXP標記服務來檢視、新增、修改及刪除指派給現有資源的標記。這可讓您組織及簡化資源管理。</block>
   <block id="10b56653c6ddbf81d7d4419364238254" category="list-text">選擇*健全狀況&gt;補救*、然後按一下*標記*索引標籤。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">開始之前</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
@@ -701,7 +682,6 @@
   <block id="e7ec4c4152826f2deedfea467894a855" category="paragraph"><block ref="e7ec4c4152826f2deedfea467894a855" category="inline-image-macro-rx" type="image"></block></block>
   <block id="af859a8aacc30e0bb1648f64ed76f23d" category="section-title">漂移報告中的 BlueXP 複寫健全狀況詳細資料</block>
   <block id="dccc80768bfca83f2c18a964a2ada6e0" category="inline-link-macro">使用範本在磁碟區上啟用 BlueXP 複寫</block>
-  <block id="ff1a821ec32f5470f851de8ef3edd6a9" category="summary">BlueXP 補救服務（ AppTemplate ）可讓您將 BlueXP 工作環境的資源建立標準化。</block>
   <block id="510f57bbfca743348ff245cb08dc02e3" category="doc">BlueXP 補救文件</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="2603b912f5fde0329947b49c922b5a4d" category="summary">選取貴組織所建置的其中一個應用程式範本、以建立針對特定工作負載和應用程式最佳化的工作環境或磁碟區。範本也可讓您啟動磁碟區或現有磁碟區上的 BlueXP 備份與還原、 BlueXP 分類及 BlueXP 複寫（ SnapMirror ）。</block>
@@ -757,8 +737,6 @@
   <block id="73d5b5afc4a2cdcc8daaa40ba4ef5910" category="list-text"><block ref="73d5b5afc4a2cdcc8daaa40ba4ef5910" category="inline-link-macro-rx"></block></block>
   <block id="c60b09ae2c96c9e21869de6d6df59453" category="sidebar">BlueXP 補救文件</block>
   <block id="89bd41d8bc97392a23a93ae863b454bb" category="sidebar">使用 BlueXP 補救措施</block>
-  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
-  <block id="bdada2beda611e5479ba79eddd7f3b9f" category="sidebar">將備份、分類或複寫功能新增至磁碟區</block>
   <block id="3c66700164b4cb085d6e086bf6b7d73b" category="paragraph">何時 <block ref="438903b5e6182d9d4cc41396268e5cbc" category="inline-link-macro-rx"></block>、您可以選擇在「啟用複寫健全狀況監控」欄位中啟用偏移、以在偏移報告中顯示更詳細的複寫資訊。啟用時、漂移報告會顯示 BlueXP 複寫關係的健全狀況或不良狀況（漂移）、以及 SnapMirror 延遲時間、狀態和上次傳輸時間。</block>
   <block id="8abfe8e6c06581937c37ec49be54c6d7" category="list-text">如果您想要讓偏移報告包含SnapMirror關係的複寫健全狀況、以及延遲時間、狀態和上次傳輸時間、請啟用複寫健全狀況狀態監控。 <block ref="1eb00ed04881df5d17ae6b01acb7f8fb" category="inline-link-macro-rx"></block>。</block>
   <block id="8b6065ebfe1dc5ad36b1f573c520ca7b" category="list-text">啟動<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> 在Volume上（Azure NetApp Files 不適用於</block>
@@ -857,4 +835,6 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="5010faf2ce0072bc73496fec6f09f024" category="summary">BlueXP 補救服務可讓您將 BlueXP 工作環境的資源建立標準化。</block>
 </blocks>

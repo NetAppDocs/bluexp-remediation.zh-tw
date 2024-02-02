@@ -47,50 +47,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 瞭解 BlueXP 補救措施
-      url: concept-resource-templates.html
-    - title: 瞭解標記
-      url: concept-tagging.html
-    - title: 新增功能
-      url: whats-new.html
-  - title: 建立範本
-    links:
-    - title: 作業環境Cloud Volumes ONTAP
-      url: task-define-templates.html#create-a-template-for-a-cloud-volumes-ontap-working-environment
-    - title: 流通量Cloud Volumes ONTAP
-      url: task-define-templates.html#create-a-template-for-a-cloud-volumes-ontap-volume
-    - title: 流通量Azure NetApp Files
-      url: task-define-templates.html#create-a-template-for-an-azure-netapp-files-volume
-    - title: 內部部署ONTAP 的產品不只是功能
-      url: task-define-templates.html#create-a-template-for-an-on-premises-ontap-volume
-    - title: 將備份、分類或複寫功能新增至磁碟區
-      url: task-define-templates.html#examples-of-enabling-services-using-templates
-  - title: 使用範本建立資源
-    links:
-    - title: 作業環境Cloud Volumes ONTAP
-      url: task-run-templates.html#select-and-run-a-working-environment-template
-    - title: CVO、內部部署和ANF的Volume
-      url: task-run-templates.html#select-and-run-a-volume-template
-  - title: 使用範本和標記來管理資源
-    links:
-    - title: 檢查資源是否符合範本規範（飄移）
-      url: task-check-template-compliance.html
-    - title: 執行可尋找現有資源的範本
-      url: task-run-templates.html#select-and-run-a-template-that-finds-existing-resources
-    - title: 管理資源的標記
-      url: task-using-tags.html
-  - title: 部落格社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://bluexp.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
